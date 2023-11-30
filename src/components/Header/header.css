@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 /* Estilos para el header */
-/* header {
-    @apply flex justify-between items-center p-5 bg-black border-b-4 border-red-600 font-Poppins;
-} */
-
 header {
     display: flex;
     justify-content: space-between;
@@ -20,41 +16,19 @@ header {
     @apply flex items-center;
 }
 
+.logo img {
+    @apply w-12 h-12 rounded-full;
+}
+
 .logo h1 {
     @apply m-0 text-white ml-3 text-2xl;
 }
-
-/* .logo {
-    display: flex;
-    align-items: center;
-} */
-
-/* .logo h1 {
-    margin: 0;
-    color: #fff;
-    margin-left: 10px;
-    font-size: 1.5rem;
-} */
 
 /* Estilos para el menú */
 header nav ul {
     @apply list-none flex;
 }
 
-/* header nav ul {
-    list-style: none;
-    display: flex;
-} */
-
 .navLinks a {
     @apply block py-2 px-4 no-underline text-white font-medium;
 }
-
-/* .navLinks a {
-    display: block;
-    padding: 10px 15px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-} */
-
