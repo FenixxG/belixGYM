@@ -1,0 +1,66 @@
+[
+    {
+        "id": "inicio",
+        "nombre": "Inicio",
+        "link": "/"
+    },
+    {
+        "id": "que_ofrecemos",
+        "nombre": "Que ofrecemos",
+        "link": "/que-ofrecemos",
+        "submenu": [
+            {
+                "id": "servicios",
+                "nombre": "Servicios",
+                "link": "/que-ofrecemos/servicios"
+            },
+            {
+                "id": "mensualidades",
+                "nombre": "Mensualidades",
+                "link": "/que-ofrecemos/mensualidades"
+            },
+            {
+                "id": "productos",
+                "nombre": "Productos",
+                "link": "/que-ofrecemos/productos",
+                "submenu": [
+                    {
+                        "id": "consumibles",
+                        "nombre": "Consumibles",
+                        "link": "/que-ofrecemos/productos/consumibles"
+                    },
+                    {
+                        "id": "accesorios",
+                        "nombre": "Accesorios",
+                        "link": "/que-ofrecemos/productos/accesorios"
+                    }
+                ]
+            },
+            {
+                "id": "programas",
+                "nombre": "Programas",
+                "link": "/que-ofrecemos/programas"
+            }
+        ]
+    },
+    {
+        "id": "blog",
+        "nombre": "Blog",
+        "link": "/blog"
+    },
+    {
+        "id": "contacto",
+        "nombre": "Contacto",
+        "link": "/contacto"
+    },
+    {
+        "id": "acerca_de",
+        "nombre": "Acerca de",
+        "link": "/acerca-de"
+    },
+    {
+        "id": "faq",
+        "nombre": "FAQ",
+        "link": "/faq"
+    }
+]
