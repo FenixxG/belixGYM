@@ -25,7 +25,7 @@ export const Contact = () => {
 
                 <div>
                     <label htmlFor="">Numero de Teléfono:</label>
-                    <input type="number" name="email" id="email" value={telephone} onChange={(e) => { setEmail(e.target.value) }} />
+                    <input type="number" name="telephone" id="telephone" value={telephone} onChange={(e) => { setTelephone(e.target.value) }} />
                 </div>
 
                 <div>
