@@ -1,14 +1,18 @@
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
 import './App.css'
 
-import Page from './pages/Page';
+import { Inicio } from './pages/Inicio';
+import { Acercade } from './pages/Acercade';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <Page />
-    </>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Inicio />} />
+        <Route path='/acerca-de' element={<Acercade />} />
+      </Routes>
+    </Router>
   )
 }
 

@@ -2,14 +2,13 @@ import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
 import './page.css';
 
-const Page = () => {
+const Page = ( {children} ) => {
     return (
         <>
             <Header />
             <main>
-                <h1>Page</h1>
+                {children}
             </main>
-
             <Footer />
         </>
     );

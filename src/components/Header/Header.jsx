@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import menus from './menu.json';
 import './header.css';
 import Logo from '../../assets/belixlogo.png';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     const [openMenu, setOpenMenu] = useState(null);
@@ -17,7 +18,7 @@ const Header = () => {
             <ul className={`submenu ${openMenu === menu.id ? 'active' : ''}`}>
                 {menu.submenu.map((submenuItem) => (
                     <li key={submenuItem.id}>
-                        <a href={submenuItem.link}>{submenuItem.nombre}</a>
+                        <Link href={submenuItem.link}>{submenuItem.nombre}</Link>
                     </li>
                 ))}
             </ul>
@@ -25,7 +26,7 @@ const Header = () => {
 
         return (
             <li key={menu.id}>
-                <a
+                <Link
                     href={menu.link}
                     // onClick={(e) => {
                     //     e.preventDefault();
@@ -33,7 +34,7 @@ const Header = () => {
                     // }}
                 >
                     {menu.nombre}
-                </a>
+                </Link>
                 {subMenu}
             </li>
         );
