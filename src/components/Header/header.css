@@ -32,3 +32,12 @@ header nav ul {
 .navLinks a {
     @apply block py-2 px-4 no-underline text-white font-medium;
 }
+
+/* Estilos para el submenú */
+.submenu {
+    @apply hidden absolute bg-gray-800 z-10 p-3 rounded shadow-md;
+}
+
+.navLinks > li:hover .submenu {
+    @apply block;
+}

@@ -1,22 +1,40 @@
+import React, { useState } from 'react';
 import menus from './menu.json';
 import './header.css';
 import Logo from '../../assets/belixlogo.png';
 
 const Header = () => {
-    const menuItems = menus.map((menu) => {
+    const [openMenu, setOpenMenu] = useState(null);
 
-        const subMenu = menu.submenu? menu.submenu.map((menusub) => {
-            <li key={menusub.id}>
-                <a href={menusub.link}>{menusub.nombre}</a>
-            </li>
-        }):null;
+    const handleSubMenuClick = (menuId) => {
+        setOpenMenu(openMenu === menuId ? null : menuId);
+    };
+
+    const menuItems = menus.map((menu) => {
+        const hasSubMenu = menu.submenu && menu.submenu.length > 0;
+
+        const subMenu = hasSubMenu ? (
+            <ul className={`submenu ${openMenu === menu.id ? 'active' : ''}`}>
+                {menu.submenu.map((submenuItem) => (
+                    <li key={submenuItem.id}>
+                        <a href={submenuItem.link}>{submenuItem.nombre}</a>
+                    </li>
+                ))}
+            </ul>
+        ) : null;
 
         return (
             <li key={menu.id}>
-                <a href={menu.link}>{menu.nombre}</a>
-                {subMenu && (
-                    <ul>{subMenu}</ul>
-                )}
+                <a
+                    href={menu.link}
+                    onClick={(e) => {
+                        e.preventDefault();
+                        handleSubMenuClick(menu.id);
+                    }}
+                >
+                    {menu.nombre}
+                </a>
+                {subMenu}
             </li>
         );
     });
@@ -34,6 +52,6 @@ const Header = () => {
             </nav>
         </header>
     );
-}
+};
 
 export default Header;
