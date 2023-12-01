@@ -50,5 +50,3 @@ header nav ul {
 .navLinks > li:hover .submenu .product-submenu {
     @apply block;
 }
-
-
