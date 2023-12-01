@@ -7,7 +7,7 @@ import imagenHero from '../assets/imagenHero.jpg';
 export const Inicio = () => {
     return (
         <Page>
-            <section className="hero">
+            {/* <section className="hero">
                 <img src={imagenHero} alt="Hero" />
             </section>
 
@@ -21,7 +21,6 @@ export const Inicio = () => {
             <section className="location">
                 <div className="location-content">
                     <p>Aquí va tu dirección</p>
-                    {/* El iframe del mapa de Google Maps */}
                     <iframe
                         title="Mapa"
                         src="https://www.google.com/maps/embed?..."
@@ -31,7 +30,7 @@ export const Inicio = () => {
                         loading="lazy"
                     ></iframe>
                 </div>
-            </section>
+            </section> */}
         </Page>
     );
 };
