@@ -33,7 +33,7 @@ header nav ul {
     @apply block py-2 px-4 no-underline text-white font-medium;
 }
 
-/* Estilos para el submenú */
+/* Estilos para el submenú principal */
 .submenu {
     @apply hidden absolute bg-gray-800 z-10 p-3 rounded shadow-md;
 }
@@ -41,3 +41,14 @@ header nav ul {
 .navLinks > li:hover .submenu {
     @apply block;
 }
+/* Estilos para el submenú de productos */
+.product-submenu {
+    @apply hidden absolute top-20  left-full bg-gray-800 z-10 p-3 shadow-md rounded-none; /* Agregado 'rounded-none' */
+    /* Ajusta el valor de top según sea necesario para mover el submenú hacia abajo */
+}
+
+.navLinks > li:hover .submenu .product-submenu {
+    @apply block;
+}
+
+

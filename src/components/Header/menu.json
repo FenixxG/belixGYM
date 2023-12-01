@@ -6,7 +6,7 @@
     },
     {
         "id": "que_ofrecemos",
-        "nombre": "Que ofrecemos",
+        "nombre": "Que ofrecemos ▼",
         "link": "/que-ofrecemos",
         "submenu": [
             {
@@ -21,7 +21,7 @@
             },
             {
                 "id": "productos",
-                "nombre": "Productos",
+                "nombre": "Productos ->",
                 "link": "/que-ofrecemos/productos",
                 "submenu": [
                     {
