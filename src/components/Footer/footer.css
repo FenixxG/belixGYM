@@ -4,7 +4,7 @@ footer {
     color: #fff;
     padding: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* Cambiado a columna para alinear los elementos verticalmente */
     align-items: center;
 }
 
@@ -14,16 +14,15 @@ footer {
     justify-content: space-between;
     width: 100%;
     max-width: 600px; /* Establece un ancho máximo para el contenido */
+    margin: 0 auto; /* Centra el contenedor principal horizontalmente (si es necesario) */
+    height: 100%; /* Opcional: para que ocupe toda la altura del footer */
 }
 
 /* Estilos para la sección de horario */
-.horario {
-    text-align: left;
-}
-
 .horario h3 {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    margin-right: 200px;
 }
 
 .horario p {
@@ -33,7 +32,7 @@ footer {
 
 /* Estilos para la sección de redes sociales */
 .sociales {
-    text-align: right;
+    text-align: center;
 }
 
 .sociales h3 {
@@ -41,7 +40,22 @@ footer {
     margin-bottom: 10px;
 }
 
-/* Estilos para el logo */
+/* Estilos para los iconos sociales */
+.social-icons {
+    display: flex;
+    gap: 10px; /* Espaciado entre los iconos */
+}
+
+.social-icons svg {
+    font-size: 24px; /* Tamaño de los iconos */
+}
+
+/* Estilos para el contenedor de la imagen y el strong */
+.logo-container, footer strong {
+    text-align: center;
+}
+
+/* Estilos para la imagen */
 footer img {
     max-width: 100px;
 }
@@ -51,4 +65,6 @@ footer strong {
     margin-top: 20px;
     font-size: 0.9rem;
     text-align: center;
+    margin-left: 130px; /* Ajusta el margen derecho según tus necesidades */
 }
+
