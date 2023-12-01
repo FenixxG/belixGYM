@@ -1,14 +1,17 @@
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
 import './App.css'
+import { Contact } from './pages/Contact';
 
-import Page from './pages/Page';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
 function App() {
   return (
-    <>
-      <Page />
-    </>
+    <Router>
+      <Routes>
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+     </Router>
   )
 }
 
