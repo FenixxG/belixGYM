@@ -27,10 +27,10 @@ const Header = () => {
             <li key={menu.id}>
                 <a
                     href={menu.link}
-                    onClick={(e) => {
-                        e.preventDefault();
-                        handleSubMenuClick(menu.id);
-                    }}
+                    // onClick={(e) => {
+                    //     e.preventDefault();
+                    //     handleSubMenuClick(menu.id);
+                    // }}
                 >
                     {menu.nombre}
                 </a>
