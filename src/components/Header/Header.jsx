@@ -4,40 +4,43 @@ import './header.css';
 import Logo from '../../assets/belixlogo.png';
 
 const Header = () => {
-    const [openMenu, setOpenMenu] = useState(null);
+    const [openQueOfrecemosSubMenu, setOpenQueOfrecemosSubMenu] = useState(null);
+    const [openProductosSubMenu, setOpenProductosSubMenu] = useState(null);
 
-    const handleSubMenuClick = (menuId) => {
-        setOpenMenu(openMenu === menuId ? null : menuId);
+    const handleQueOfrecemosSubMenuClick = (menuId) => {
+        setOpenQueOfrecemosSubMenu(openQueOfrecemosSubMenu === menuId ? null : menuId);
     };
 
-    const menuItems = menus.map((menu) => {
-        const hasSubMenu = menu.submenu && menu.submenu.length > 0;
+    const handleProductosSubMenuClick = (subMenuId) => {
+        setOpenProductosSubMenu(openProductosSubMenu === subMenuId ? null : subMenuId);
+    };
 
-        const subMenu = hasSubMenu ? (
-            <ul className={`submenu ${openMenu === menu.id ? 'active' : ''}`}>
-                {menu.submenu.map((submenuItem) => (
-                    <li key={submenuItem.id}>
-                        <a href={submenuItem.link}>{submenuItem.nombre}</a>
-                    </li>
-                ))}
-            </ul>
-        ) : null;
+    const queOfrecemosSubMenu = menus.find((menu) => menu.id === 'que_ofrecemos')?.submenu.map((submenuItem) => (
+        <li
+            key={submenuItem.id}
+            onMouseEnter={() => handleQueOfrecemosSubMenuClick(submenuItem.id)}
+        >
+            <a href={submenuItem.link}>
+                {submenuItem.nombre}
+            </a>
+        </li>
+    ));
 
-        return (
-            <li key={menu.id}>
-                <a
-                    href={menu.link}
-                    // onClick={(e) => {
-                    //     e.preventDefault();
-                    //     handleSubMenuClick(menu.id);
-                    // }}
+    const productosSubMenu = openQueOfrecemosSubMenu === 'productos' || openProductosSubMenu === 'productos' ? (
+        <ul className="submenu product-submenu">
+            {menus.find((menu) => menu.id === 'que_ofrecemos')?.submenu.find((item) => item.id === 'productos')?.submenu.map((submenuItem) => (
+                <li
+                    key={submenuItem.id}
+                    onMouseEnter={() => handleProductosSubMenuClick(submenuItem.id)}
+                    onMouseLeave={() => setOpenProductosSubMenu(null)}
                 >
-                    {menu.nombre}
-                </a>
-                {subMenu}
-            </li>
-        );
-    });
+                    <a href={submenuItem.link}>
+                        {submenuItem.nombre}
+                    </a>
+                </li>
+            ))}
+        </ul>
+    ) : null;
 
     return (
         <header>
@@ -47,7 +50,23 @@ const Header = () => {
             </div>
             <nav>
                 <ul className="navLinks">
-                    {menuItems}
+                    {menus.map((menu) => (
+                        <li
+                            key={menu.id}
+                            onMouseEnter={() => setOpenQueOfrecemosSubMenu(null)}
+                            onMouseLeave={() => setOpenProductosSubMenu(null)}
+                        >
+                            <a href={menu.link}>
+                                {menu.nombre}
+                            </a>
+                            {menu.id === 'que_ofrecemos' && menu.submenu && (
+                                <ul className={`submenu ${openQueOfrecemosSubMenu === menu.id || openProductosSubMenu === 'productos' ? 'active' : ''}`}>
+                                    {queOfrecemosSubMenu}
+                                    {productosSubMenu}
+                                </ul>
+                            )}
+                        </li>
+                    ))}
                 </ul>
             </nav>
         </header>
