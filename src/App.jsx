@@ -1,8 +1,9 @@
 import './App.css'
-
 import { Inicio } from './pages/Inicio';
 import { Contact } from './pages/Contact';
 import { Acercade } from './pages/Acercade';
+
+
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 

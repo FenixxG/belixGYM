@@ -9,6 +9,8 @@ header {
     background-color: #000;
     border-bottom: 5px solid #C40000;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+
 }
 
 /* Estilos para el logo */
