@@ -1,5 +1,5 @@
 .container {
-    @apply flex justify-between max-w-screen-md mx-auto p-8;
+    @apply flex justify-between max-w-screen-md mx-auto p-8 bg-gray-500;
 }
 
 .contact-info {
@@ -7,18 +7,18 @@
 }
 
 .contact-info h1 {
-    @apply text-4xl font-bold mb-4 text-white;
+    @apply text-4xl font-bold mb-4 text-white uppercase;
 }
 
 .contact-info p {
-    @apply text-gray-700 mb-4 text-white;
+    @apply mb-4 text-white;
 }
 .form {
-    @apply flex-1 text-white shadow-md rounded-tl-2xl rounded-tr-2xl px-8 pt-6 pb-8;
+    @apply flex-1 text-white  rounded-tr-2xl px-8 pt-6 pb-8;
 }
 
 .form input {
-    @apply shadow appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-900 border-2;
+    @apply shadow appearance-none rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-900 border-2;
 }
 
 .form button {
@@ -26,5 +26,5 @@
 }
 
 .form textarea {
-    @apply shadow appearance-none border rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-700 border-2;
+    @apply shadow appearance-none rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-900 border-2;
 }
