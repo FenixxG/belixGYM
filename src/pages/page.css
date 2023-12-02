@@ -6,24 +6,22 @@ main {
     height: 100vh;
     background-color: #000;
     margin-bottom: 1000px
-    
 }
 
 main section {
     @apply w-full;
 }
 
-@media (min-width: 500px) and (max-width: 816px){
-    main{
-         margin-bottom: 2050px
-     }
- 
- }
+@media (min-width: 500px) and (max-width: 816px) {
+    main {
+        margin-bottom: 2050px
+    }
 
- @media (min-width: 400px) and (max-width: 500px){
-    main{
-         margin-bottom: 2190px
-     }
- 
- }
+}
 
+@media (min-width: 400px) and (max-width: 500px) {
+    main {
+        margin-bottom: 2190px
+    }
+
+}

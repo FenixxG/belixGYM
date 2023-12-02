@@ -9,7 +9,6 @@ const Page = ( {children} ) => {
             <main>
                 {children}
             </main>
-            
             <Footer />
         </>
     );
