@@ -7,6 +7,7 @@ import './acerca.css'
 export const Acercade = () => {
     return (
       <Page title="Acerca Page">
+
         <div>
             <div class="contenedor-acerca  mx-auto p-4 static">
 
@@ -84,7 +85,6 @@ export const Acercade = () => {
             </div>
             
         </div>
-
       </Page>
     )
 }

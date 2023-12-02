@@ -1,8 +1,8 @@
 import { useState } from "react";
 import Page from "./Page";
-import './contact.css';
+import './contacto.css';
 
-export const Contact = () => {
+export const Contacto = () => {
     // useState return [value, setterFunction]
     const [name, setName] = useState('');
     const [telephone, setTelephone] = useState('');
