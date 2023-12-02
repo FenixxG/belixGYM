@@ -3,7 +3,7 @@ body {
   @apply bg-black;
 }
 .contenedor-acerca {
-  @apply bg-neutral-200 w-4/5 static grow mt-[925px] mb-20 mx-[8%] p-5 top-2/4;
+  @apply bg-neutral-200 w-4/5 static grow mt-[0px] mb-20 mx-[8%] p-5 top-2/4;
 }
 .acerca-mv {
   @apply flex flex-col items-center;
@@ -50,10 +50,8 @@ p {
 .entrenadores h2 {
   @apply flex justify-center font-[bolder] mt-1;
 }
+
 @media (min-width: 340px) and (max-width: 816px) {
-  .contenedor-acerca {
-    @apply mt-[335vh];
-  }
   .acerca-mv h1 {
     @apply text-3xl;
   }
@@ -76,48 +74,18 @@ p {
     @apply text-[15px];
   }
 }
-@media (max-width: 633px) {
-  .contenedor-acerca {
-    @apply mt-[335vh];
-  }
-}
-@media (max-width: 622px) {
-  .contenedor-acerca {
-    @apply mt-[335vh];
-  }
-}
-@media (min-width: 458px) and (max-width: 499px) {
-  .contenedor-acerca {
-    @apply mt-[365vh];
-  }
-}
-@media (min-width: 500px) and (max-width: 510px) {
-  .contenedor-acerca {
-    @apply mt-[355vh];
-  }
-}
-@media (min-width: 511px) and (max-width: 512px) {
-  .contenedor-acerca {
-    @apply mt-[356vh];
-  }
-}
-@media (min-width: 500px) and (max-width: 500px) {
-  .contenedor-acerca {
-    @apply mt-[360vh];
-  }
-}
-@media (min-width: 605px) and (max-width: 607px) {
-  .contenedor-acerca {
-    @apply mt-[357vh];
-  }
-}
-@media (min-width: 810px) and (max-width: 816px) {
-  .contenedor-acerca {
-    @apply mt-[357vh];
-  }
-}
-@media (min-width: 817px) and (max-width: 817px) {
-  .contenedor-acerca {
-    @apply mt-[177vh];
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
