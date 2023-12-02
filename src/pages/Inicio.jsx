@@ -1,8 +1,8 @@
-import React from 'react';
-import Page from './Page';
-import './inicio.css';
+import React from "react";
+import Page from "./Page";
+import "./inicio.css";
 
-import imagenHero from '../assets/imagenHero.jpg';
+import imagenHero from "../assets/imagenHero.jpg";
 
 export const Inicio = () => {
     return (
@@ -34,4 +34,3 @@ export const Inicio = () => {
         </Page>
     );
 };
-

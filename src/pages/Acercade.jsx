@@ -4,7 +4,7 @@ export const Acercade = () => {
     return (
       <Page title="Acerca Page">
         <section>
-          <h2 className="m-4 p-4 bg-blue-400 text-red-400">XYZ</h2>
+          <h2 className="m-4 p-4 bg-blue-400 text-red-400">Pagina Acerca de</h2>
         </section>
       </Page>
     )
