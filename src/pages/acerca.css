@@ -1,10 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&display=swap");
+
 body {
   @apply bg-black;
 }
 .contenedor-acerca {
-  @apply bg-neutral-200 w-4/5 static grow mt-[0px] mb-20 mx-[8%] p-5 top-2/4;
+  background-color: #E5E5E5;
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-bottom: 80px;
+  top: 50%;
+  position: static;
+  flex-grow: 1;
+  padding: 20px;
 }
+
 .acerca-mv {
   @apply flex flex-col items-center;
 }
