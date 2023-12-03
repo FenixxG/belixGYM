@@ -1,30 +1,50 @@
 .container {
-    @apply flex justify-between max-w-screen-md mx-auto p-8 bg-gray-500;
+    @apply flex w-full justify-between p-56 bg-neutral-200;
 }
 
 .contact-info {
-    @apply max-w-md;
+    @apply max-w-sm mx-auto text-left ml-28; /* Añade margen a la izquierda */
 }
 
 .contact-info h1 {
-    @apply text-4xl font-bold mb-4 text-white uppercase;
+    @apply text-4xl font-bold mb-4 text-black uppercase;
 }
 
 .contact-info p {
-    @apply mb-4 text-white;
-}
-.form {
-    @apply flex-1 text-white  rounded-tr-2xl px-8 pt-6 pb-8;
+    @apply mb-4 text-black;
 }
 
-.form input {
+.contact-icons span {
+    @apply ml-2;
+}
+
+.form {
+    @apply flex-1 text-black rounded-tr-2xl px-12 pt-6 pb-8 ml-4;
+}
+
+.form input,
+.form textarea {
     @apply shadow appearance-none rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-900 border-2;
 }
 
 .form button {
-    @apply bg-red-900 hover:bg-red-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none uppercase;
+    @apply bg-red-900 hover:bg-red-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none uppercase m-0; /* Utiliza la misma clase de margen para el botón */
+}
+
+.form input {
+    @apply w-56 h-8 m-2 ml-4;
 }
 
 .form textarea {
-    @apply shadow appearance-none rounded-md w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none border-b-red-900 border-2;
+    @apply w-96 h-28 ml-0 resize-none m-2;
+}
+
+.form input[type="text"] {
+    @apply ml-7;
+}
+
+.form input[type="number"]::-webkit-inner-spin-button,
+.form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }

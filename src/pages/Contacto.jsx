@@ -1,6 +1,8 @@
 import { useState } from "react";
 import Page from "./Page";
 import './contacto.css';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 export const Contacto = () => {
     // useState return [value, setterFunction]
@@ -20,9 +22,17 @@ export const Contacto = () => {
             <div class="container">
                 <div class="contact-info">
                     <h1>Contactanos</h1>
-                    <p>Contactenos sobre cualquier cosa relacionada con nuestro gimnasio o servicios.</p>
+                    <p>Contáctenos sobre cualquier cosa relacionada con nuestro gimnasio o servicios. </p>
                     <p>Haremos todo lo posible para responderte lo antes posible.</p>
+                    <div class="contact-icons">
+                        <FontAwesomeIcon icon={faPhone} />
+                        <span>9574-7107</span>
+                        <br />
+                        <FontAwesomeIcon icon={faEnvelope} />
+                        <span>belix10@yahoo.com</span>
+                    </div>
                 </div>
+
                 <form class="form">
                     <div>
                         <label htmlFor="">Nombre Completo:</label>
