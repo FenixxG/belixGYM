@@ -20,7 +20,7 @@ body {
   @apply flex flex-col items-center;
 }
 .acerca-mv h1 {
-  @apply font-[bolder] text-[40px] mt-[5%] mb-2.5;
+  @apply font-bold text-[40px] mt-[5%] mb-2.5;
 }
 .acerca-mision {
   @apply bg-white w-[70%] mb-5 border-[7px] border-solid border-[#999999];
@@ -30,7 +30,7 @@ p {
   @apply flex justify-center;
 }
 .acerca-mision h2 {
-  @apply font-[bolder] text-[35px];
+  @apply font-bold text-[35px];
 }
 .acerca-mision p {
   @apply mt-[0%] mb-[5%] mx-[5%];
@@ -42,7 +42,7 @@ p {
   @apply flex flex-col items-center;
 }
 .contenedor-entrenadores h1 {
-  @apply text-[40px] font-[bolder] mt-[2%] mb-2.5;
+  @apply text-[40px] font-bold mt-[2%] mb-2.5;
 }
 .contenedor-carta {
   @apply flex flex-row flex-wrap justify-evenly;
@@ -51,7 +51,7 @@ p {
   @apply bg-white w-[30%] m-2.5 border-[7px] border-solid border-[#999999];
 }
 .entrenadores p {
-  @apply m-2.5;
+  @apply m-2.5 justify-center;
 }
 .entrenadores img {
   @apply w-[90%] shadow-[1px_7px_5px_3px_rgba(0,0,0,0.5)] m-[5%];
@@ -59,7 +59,7 @@ p {
   -moz-box-shadow: 1px 7px 5px 3px rgba(0, 0, 0, 0.5);
 }
 .entrenadores h2 {
-  @apply flex justify-center font-[bolder] mt-1;
+  @apply flex justify-center font-bold mt-1;
 }
 
 @media (min-width: 340px) and (max-width: 816px) {
