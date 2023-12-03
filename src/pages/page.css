@@ -5,23 +5,20 @@ main {
     justify-content: flex-start;
     height: 100vh;
     background-color: #000;
-    margin-bottom: 1000px;
+    position: relative;
+    top: 0;
+    flex: 1;
+    
+
 }
 
 main section {
     @apply w-full;
 }
 
-@media (min-width: 500px) and (max-width: 816px) {
+@media (max-width: 1245px) {
     main {
-        margin-bottom: 2050px
+        
+        background-color: antiquewhite;
     }
-
-}
-
-@media (min-width: 400px) and (max-width: 500px) {
-    main {
-        margin-bottom: 2190px
-    }
-
 }

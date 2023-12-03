@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "nombre": "WHEY PROTEIN",
+        "descripcion": "Proteina de la marca Optimum Nutrition",
+        "imgUrl": "../../src/assets/whey.webp",
+        "precio": "2000 LPS."
+    },
+    {
+        "id": "2",
+        "nombre": "WHEY PROTEIN",
+        "descripcion": "Proteina de la marca Hsn",
+        "imgUrl": "../../src/assets/hsn.webp",
+        "precio": "1800 LPS."
+    },
+    {
+        "id": "3",
+        "nombre": "LIFE PRO CLEAR",
+        "descripcion": "Proteina de la marca Life Pro Nutrition",
+        "imgUrl": "../../src/assets/lpro1.webp",
+        "precio": "2000 LPS."
+    },
+    {
+        "id": "4",
+        "nombre": "FOODSPRING WHEY PROTEIN",
+        "descripcion": "Proteina de la marca FoodSpring",
+        "imgUrl": "../../src/assets/fspring.webp",
+        "precio": "1500 LPS."
+    },
+    {
+        "id": "5",
+        "nombre": "DYMATIZE WHEY PROTEIN",
+        "descripcion": "Proteina de la marca Dymatize",
+        "imgUrl": "../../src/assets/dyma.webp",
+        "precio": "2000 LPS."
+    }
+    
+]

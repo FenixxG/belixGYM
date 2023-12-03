@@ -6,10 +6,8 @@ footer {
     display: flex;
     flex-direction: column;
     /* Cambiado a columna para alinear los elementos verticalmente */
-    align-items: center;
-    bottom: 0;
-    position: relative;
    
+  
 }
 
 /* Estilos para el contenedor principal */

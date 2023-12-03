@@ -16,8 +16,13 @@
     @apply w-4/5 h-[200px] mr-[1%] mt-2.5;
   }
   .card-title {
-    @apply flex font-bold justify-center text-xl mb-[15px];
-  }  
+    @apply flex font-bold justify-center text-xl mb-[15px] ;
+  } 
+  
+.card-body h5{
+  display: flex;
+  font-size: 15px;
+}
 
 .card .card-body{
     @apply p-4;
