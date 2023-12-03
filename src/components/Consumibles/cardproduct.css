@@ -19,10 +19,9 @@
     @apply flex font-bold justify-center text-xl mb-[15px] ;
   } 
   
-.card-body h5{
-  display: flex;
-  font-size: 15px;
-}
+  .card-body h5 {
+    @apply flex text-[15px];
+  }
 
 .card .card-body{
     @apply p-4;
