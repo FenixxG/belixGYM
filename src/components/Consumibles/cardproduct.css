@@ -1,39 +1,39 @@
-.card{
-   /* @apply border-gray-300 shadow-sm m-4;*/
-   background-color: #FFFFFF;
-   border: 5px solid #999999;
-   height: 400px;
-   margin-right: 15px;
-   margin-bottom: 15px;
-   width: 300px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   font-family: 'Poppins', sans-serif;
+.card {
+  /* @apply border-gray-300 shadow-sm m-4;*/
+  background-color: #FFFFFF;
+  border: 5px solid #999999;
+  height: 400px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Poppins', sans-serif;
 }
+
 .card img {
-    @apply w-4/5 h-[200px] mr-[1%] mt-2.5;
-  }
-  .card-title {
-    @apply flex font-bold justify-center text-xl mb-[15px] ;
-  } 
-  
-.card-body h5{
+  @apply w-4/5 h-[200px] mr-[1%] mt-2.5;
+}
+
+.card-title {
+  @apply flex font-bold justify-center text-xl mb-[15px];
+}
+
+.card-body h5 {
   display: flex;
   font-size: 15px;
 }
 
-.card .card-body{
-    @apply p-4;
+.card .card-body {
+  @apply p-4;
 }
 
-.card .card-body h3{
-    @apply text-lg font-semibold;
+.card .card-body h3 {
+  @apply text-lg font-semibold;
 }
 
 .precio-consumible {
-    @apply bg-black text-white h-[30px] w-[100px] mt-10;
-  }
-  
-
+  @apply bg-black text-white h-[30px] w-[100px] mt-10;
+}
