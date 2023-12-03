@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "nombre": "Cinturon",
+        "descripcion": "Cinturon de Cuero de la marca Everlast",
+        "imgUrl": "../../src/assets/fcuero.webp",
+        "precio": "1200 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "Cinturon",
+        "descripcion": "Cinturon de Cuero de la marca RDX",
+        "imgUrl": "../../src/assets/fcuero2.webp",
+        "precio": "1000 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "Cinturon",
+        "descripcion": "Cinturon de Cuero de la marca Everlast",
+        "imgUrl": "../../src/assets/ftela.webp",
+        "precio": "800 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "Cinturon",
+        "descripcion": "Cinturon de Cuero de la marca Harbinger",
+        "imgUrl": "../../src/assets/ftela2.webp",
+        "precio": "800 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "Cinturon",
+        "descripcion": "Cinturon de Cuero de la marca RIMSports",
+        "imgUrl": "../../src/assets/ftela4.webp",
+        "precio": "800 LPS."
+    }
+    
+]

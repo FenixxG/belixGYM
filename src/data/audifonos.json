@@ -1,0 +1,40 @@
+[
+    {
+        "id": "1",
+        "nombre": "SAMSUNG AKG",
+        "descripcion": "Audifonos alambricos de la marca Samsung",
+        "imgUrl": "../../src/assets/a1.webp",
+        "precio": "600 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "HUAWEI CLASSIC",
+        "descripcion": "Audifonos alambricos de la marca Huawei",
+        "imgUrl": "../../src/assets/a5.webp",
+        "precio": "600 LPS."
+    },
+    {
+        "id": "1",
+        "nombre": "SONY MDREX110AP/B AKG",
+        "descripcion": "Audifonos alambricos de la marca Sony",
+        "imgUrl": "../../src/assets/a4.webp",
+        "precio": "600 LPS."
+    },
+    
+    {
+        "id": "1",
+        "nombre": "SENHEISER CX 80S",
+        "descripcion": "Audifonos alambricos de la marca Senheiser",
+        "imgUrl": "../../src/assets/a3.webp",
+        "precio": "400 LPS."
+    },
+    
+    {
+        "id": "2",
+        "nombre": "PHILIPS TAUE101BK/00",
+        "descripcion": "Audifonos alambricos de la marca Philips",
+        "imgUrl": "../../src/assets/a2.webp",
+        "precio": "300 LPS."
+    }
+    
+]
