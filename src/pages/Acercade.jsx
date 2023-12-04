@@ -11,30 +11,6 @@ export const Acercade = () => {
         <div>
             <div class="contenedor-acerca  mx-auto p-4 static">
 
-                <div class="acerca-mv">
-                    <h1>Acerca de Nosotros</h1>
-                    <div class="acerca-mision">
-                        <h2>Mision</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Vivamus ac ultricies lectus.
-                            Sed neque massa, interdum nec laoreet eget, dapibus interdum arcu.
-                            Mauris consectetur mauris ac mollis mollis. Etiam sed sollicitudin nulla.
-                            Vestibulum dui elit, lobortis ut ultricies vitae, imperdiet et magna.</p>
-                    </div>
-                    <div class="acerca-mision acerca-vision">
-                        <h2>Vision</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur
-                            adipiscing elit. Vivamus ac ultricies lectus.
-                            Sed neque massa, interdum nec laoreet eget, dapibus interdum arcu.
-                            Mauris consectetur mauris ac mollis mollis. Etiam sed sollicitudin nulla.
-                            Vestibulum dui elit, lobortis ut ultricies vitae, imperdiet et magna.</p>
-                    </div>
-
-                   
-                </div>
-
-                <div class="separador" />
-
                 <div class="contenedor-entrenadores">
                     <h1>Nuestros Entrenadores</h1>
 
@@ -42,41 +18,50 @@ export const Acercade = () => {
                         <div class="entrenadores">
                             <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Gabriel Mazariegos</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Consectetur dolorum optio, eaque dolorem perferendis
-                                excepturi velit quisquam adipisci blanditiis illum</p>
+                            <p>Un entrenador personal de élite, especializado
+                                 en diversas disciplinas, destaca por su compromiso 
+                                 inquebrantable con el éxito de sus clientes. Su enfoque
+                                  se basa en evaluaciones personalizadas meticulosas, explorando
+                                   las aspiraciones y limitaciones individuales.</p>
                         </div>
 
                         <div class="entrenadores">
                             <img src={entrenador2} alt="Imagen de entrenador" />
                             <h2>David Canales</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Consectetur dolorum optio, eaque dolorem perferendis
-                                excepturi velit quisquam adipisci blanditiis illum</p>
+                            <p>Este entrenador personal de élite, con expertise en diversas disciplinas 
+                                de acondicionamiento físico, se distingue por su dedicación al éxito de 
+                                sus clientes. Su método se centra en evaluaciones personalizadas detalladas,
+                                 abordando aspiraciones y limitaciones específicas.</p>
                         </div>
 
                         <div class="entrenadores">
                             <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Thomas</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Consectetur dolorum optio, eaque dolorem perferendis
-                                excepturi velit quisquam adipisci blanditiis illum</p>
+                            <p>Sobresaliendo en el entrenamiento personal de élite, 
+                                este especialista destaca por su compromiso con el 
+                                éxito de sus clientes. Su enfoque único se basa en 
+                                evaluaciones personalizadas, explorando a fondo las 
+                                aspiraciones y habilidades individuales.</p>
                         </div>
 
                         <div class="entrenadores">
                             <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Elias</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Consectetur dolorum optio, eaque dolorem perferendis
-                                excepturi velit quisquam adipisci blanditiis illum</p>
+                            <p>Un entrenador personal de élite,
+                                 con experiencia en diversas disciplinas, 
+                                 resalta por su compromiso inquebrantable.
+                                  Su metodología se basa en evaluaciones personalizadas, 
+                                  adentrándose en las aspiraciones y limitaciones de cada individuo.</p>
                         </div>
 
                         <div class="entrenadores">
                             <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Carlos</h2>
-                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing
-                                elit. Consectetur dolorum optio, eaque dolorem perferendis
-                                excepturi velit quisquam adipisci blanditiis illum</p>
+                            <p>Un instructor de aeróbicos altamente calificado, 
+                                especializado en potenciar la salud cardiovascular,
+                                dirigiendo a los clientes hacia metas de condición física 
+                                mediante sesiones aeróbicas dinámicas, 
+                                perfectamente ajustadas a sus necesidades individuales.</p>
                         </div>
                     </div>
                 </div>

@@ -13,10 +13,14 @@ const Page = ({ children }) => {
       return "2500px";
     } else if (location.pathname.includes("/que-ofrecemos/productos/accesorios")) {
       return "2600px";
-    }else if (location.pathname.includes("/acerca-de")) {
-        return "1000px";
-      }
-     else {
+    } else if (location.pathname.includes("/acerca-de")) {
+      return "600px";
+    } else if (location.pathname.includes("/")) {
+      return "1300px";
+    } else if (location.pathname.includes("/contacto")) {
+      return "1300px";
+    }
+    else {
       return "0px"; // Valor predeterminado
     }
   };

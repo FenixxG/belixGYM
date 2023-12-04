@@ -1,6 +1,6 @@
 import Page from "./Page";
 import './accesorios.css';
-import { CardGallery } from "../components/Accesorios/GalleryAccesorio";
+import { CardGallery } from "../components/Productos/GalleryProducto";
 
 import dataGuantes from '../data/guantes.json';
 import dataCinturones from '../data/cinturones.json';
@@ -9,7 +9,6 @@ import dataAudifonos from '../data/audifonos.json';
 export const Accesorios = () => {
   return (
     <Page>
-      <section>
         <div class="contenedor-accesorios">
           <div>
             <div class="titulos">
@@ -35,7 +34,6 @@ export const Accesorios = () => {
             <CardGallery cards={dataAudifonos} />
           </div>
         </div>
-      </section>
     </Page>
   )
 }

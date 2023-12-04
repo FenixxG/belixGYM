@@ -1,6 +1,6 @@
 import Page from "./Page";
 import './consumibles.css';
-import { CardGallery } from "../components/Consumibles/GalleryProduct";
+import { CardGallery } from "../components/Productos/GalleryProducto";
 
 
 import dataProte from '../data/Proteinas.json';

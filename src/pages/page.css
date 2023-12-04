@@ -9,16 +9,8 @@ main {
     top: 0;
     flex: 1;
     
-
 }
 
 main section {
     @apply w-full;
-}
-
-@media (max-width: 1245px) {
-    main {
-        
-        background-color: antiquewhite;
-    }
 }
