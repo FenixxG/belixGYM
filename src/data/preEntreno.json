@@ -4,35 +4,35 @@
         "nombre": "X-CITE",
         "descripcion": "Suplemento para Pre-Entreno de la marca X-Cite",
         "imgUrl": "../../src/assets/xcite.webp",
-        "precio": "2000 LPS."
+        "precio": "3000 LPS."
     },
     {
         "id": "2",
         "nombre": "MOONS TRACK",
         "descripcion": "Suplemento para Pre-Entreno de la marca MOONS TRACK",
         "imgUrl": "../../src/assets/moons.webp",
-        "precio": "1800 LPS."
+        "precio": "3000 LPS."
     },
     {
         "id": "3",
         "nombre": "HYDE",
         "descripcion": "Suplemento para Pre-Entreno de la marca Hyde",
         "imgUrl": "../../src/assets/hyde.webp",
-        "precio": "2000 LPS."
+        "precio": "2700 LPS."
     },
     {
         "id": "4",
         "nombre": "Black Blood",
         "descripcion": "Suplemento para Pre-Entreno de la marca BioTechUsa",
         "imgUrl": "../../src/assets/blackb.webp",
-        "precio": "1500 LPS."
+        "precio": "2400 LPS."
     },
     {
         "id": "5",
         "nombre": "Myocell",
         "descripcion": "Suplemento para Pre-Entreno de la marca Amix",
         "imgUrl": "../../src/assets/myocell.webp",
-        "precio": "2000 LPS."
+        "precio": "1900 LPS."
     }
     
 ]

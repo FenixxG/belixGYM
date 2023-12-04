@@ -21,9 +21,9 @@ const Header = () => {
             key={submenuItem.id}
             onMouseEnter={() => handleQueOfrecemosSubMenuClick(submenuItem.id)}
         >
-            <a href={submenuItem.link}>
+            <Link to={submenuItem.link}>
                 {submenuItem.nombre}
-            </a>
+            </Link>
         </li>
     ));
 
@@ -35,9 +35,9 @@ const Header = () => {
                     onMouseEnter={() => handleProductosSubMenuClick(submenuItem.id)}
                     onMouseLeave={() => setOpenProductosSubMenu(null)}
                 >
-                    <a href={submenuItem.link}>
+                    <Link to={submenuItem.link}>
                         {submenuItem.nombre}
-                    </a>
+                    </Link>
                 </li>
             ))}
         </ul>
@@ -57,9 +57,9 @@ const Header = () => {
                             onMouseEnter={() => setOpenQueOfrecemosSubMenu(null)}
                             onMouseLeave={() => setOpenProductosSubMenu(null)}
                         >
-                            <a href={menu.link}>
+                            <Link to={menu.link}>
                                 {menu.nombre}
-                            </a>
+                            </Link>
                             {menu.id === 'que_ofrecemos' && menu.submenu && (
                                 <ul className={`submenu ${openQueOfrecemosSubMenu === menu.id || openProductosSubMenu === 'productos' ? 'active' : ''}`}>
                                     {queOfrecemosSubMenu}

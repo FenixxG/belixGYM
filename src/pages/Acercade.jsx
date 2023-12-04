@@ -40,7 +40,7 @@ export const Acercade = () => {
 
                     <div class="contenedor-carta">
                         <div class="entrenadores">
-                            <img src={entrenador} alt="" />
+                            <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Gabriel Mazariegos</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Consectetur dolorum optio, eaque dolorem perferendis
@@ -48,7 +48,7 @@ export const Acercade = () => {
                         </div>
 
                         <div class="entrenadores">
-                            <img src={entrenador2} alt="" />
+                            <img src={entrenador2} alt="Imagen de entrenador" />
                             <h2>David Canales</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Consectetur dolorum optio, eaque dolorem perferendis
@@ -56,7 +56,7 @@ export const Acercade = () => {
                         </div>
 
                         <div class="entrenadores">
-                            <img src={entrenador} alt="" />
+                            <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Thomas</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Consectetur dolorum optio, eaque dolorem perferendis
@@ -64,7 +64,7 @@ export const Acercade = () => {
                         </div>
 
                         <div class="entrenadores">
-                            <img src={entrenador} alt="" />
+                            <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Elias</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Consectetur dolorum optio, eaque dolorem perferendis
@@ -72,7 +72,7 @@ export const Acercade = () => {
                         </div>
 
                         <div class="entrenadores">
-                            <img src={entrenador} alt="" />
+                            <img src={entrenador} alt="Imagen de entrenador" />
                             <h2>Carlos</h2>
                             <p>Lorem ipsum dolor sit, amet consectetur adipisicing
                                 elit. Consectetur dolorum optio, eaque dolorem perferendis

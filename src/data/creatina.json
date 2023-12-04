@@ -4,14 +4,14 @@
         "nombre": "CRN-5",
         "descripcion": "Creatina de la marca Crazy Nutrition",
         "imgUrl": "../../src/assets/crn5.webp",
-        "precio": "2000 LPS."
+        "precio": "3000 LPS."
     },
     {
         "id": "2",
         "nombre": "MICRONISED CREATINE",
         "descripcion": "Creatina de la marca Optimum Nutrition",
         "imgUrl": "../../src/assets/optimum.webp",
-        "precio": "1800 LPS."
+        "precio": "2500 LPS."
     },
     {
         "id": "3",
@@ -25,12 +25,12 @@
         "nombre": "MONOHYDRATE CREATINE",
         "descripcion": "Creatina de la marca Profuel",
         "imgUrl": "../../src/assets/profuel.webp",
-        "precio": "1500 LPS."
+        "precio": "2000 LPS."
     },
     {
         "id": "5",
         "nombre": "MONOHYDRATE CREATINE",
-        "descripcion": "Creatina de la marca BioTechUsa",
+        "descripcion": "Creatina de la marca BioTech",
         "imgUrl": "../../src/assets/biotech.webp",
         "precio": "2000 LPS."
     }

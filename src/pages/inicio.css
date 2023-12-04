@@ -1,15 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+section {
+    @apply bg-[#E5E5E5] font-['Poppins'];
+}
+
+/* Estilos para el Hero Panel */
 .hero-panel {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    width: 80%;
-    margin: 0;
+    @apply flex flex-col justify-center items-center h-[600px] w-[80%] m-0;
 }
 
 .hero-panel img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @apply w-full h-full object-cover;
+}
+
+/* Estilos para la secciones Acerca de y Ubicacion*/
+.acerca,
+.ubicacion {
+    @apply flex flex-col items-center w-[80%] py-10 px-0 text-center;
+}
+
+.acerca h2,
+.ubicacion h2 {
+    @apply mb-5 font-bold text-[2rem] uppercase;
+}
+
+.acerca-info,
+.ubicacion-info {
+    @apply flex flex-row items-center justify-center;
+}
+
+/* Estilos para acerca de Imagen y parrafo*/
+.acerca-info img {
+    @apply w-[350px] h-auto mr-12;
+}
+
+.acerca-info p {
+    @apply max-w-[20%] text-left font-medium;
+}
+
+/* Estilo para ubicacion parrafo y mapa */
+.ubicacion-info p {
+    @apply max-w-[40%] text-left font-medium;
+}
+
+.mapa {
+    @apply w-full max-w-[400px];
+}
+
+.separador-inicio {
+    /*@apply border-[15px] border-solid border-[#C40000] mb-8;*/
+
+    border: 1px solid #C40000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 91.5%;
 }

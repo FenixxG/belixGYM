@@ -8,15 +8,15 @@ import dataCreatine from '../data/creatina.json';
 import dataPre from '../data/preEntreno.json';
 
 export const Consumibles = () => {
- 
-  
+
+
   return (
     <Page>
       <div class="contenedor-consumibles">
         <div>
           <div class="titulos">
-          <h1>Productos</h1>
-          <h2>Contamos con los suplementos de la mayor calidad</h2>
+            <h1>Productos</h1>
+            <h2>Contamos con los suplementos de la mayor calidad</h2>
           </div>
           <div class="tipo-producto">
             <h2>Creatina</h2>
@@ -35,8 +35,6 @@ export const Consumibles = () => {
             <div class="separador-consumible" />
           </div>
           <CardGallery cards={dataProte} />
-         
-          
         </div>
       </div>
     </Page>

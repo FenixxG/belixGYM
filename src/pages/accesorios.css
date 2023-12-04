@@ -23,12 +23,38 @@
     @apply font-bold text-xl text-[#637179] text-justify mb-2.5;
 }
 
+.tipo-accesorio h2,
+.separador-accesorio {
+    margin-left: 3.5%;
+
+}
+
+.tipo-accesorio h2 {
+
+    margin-top: 40px;
+    font-weight: bolder;
+    font-size: 30px;
+    background: -webkit-linear-gradient(#C40000, #000);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.separador-accesorio {
+    /*@apply border-[15px] border-solid border-[#C40000] mb-8;*/
+
+    border: 1px solid #C40000;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 91.5%;
+}
+
 @media (max-width: 854px) {
     .titulos h1 {
-            @apply text-3xl;
+        @apply text-3xl;
     }
 
     .titulos h2 {
-            @apply text-[15px];
+        @apply text-[15px];
     }
 }

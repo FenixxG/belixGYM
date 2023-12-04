@@ -22,8 +22,7 @@
 }
 
 .card-body h5 {
-  display: flex;
-  font-size: 15px;
+  @apply flex text-[15px];
 }
 
 .card .card-body {
