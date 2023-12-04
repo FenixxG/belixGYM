@@ -1,0 +1,35 @@
+/* Ajuste del espacio entre header y footer */
+.faq-content {
+    @apply flex-1 overflow-y-auto;
+}
+
+
+/* Contenedor principal del FAQ */
+.faq-container {
+    @apply mx-auto max-w-screen-xl py-20 px-80 bg-neutral-200 max-h-screen;
+}
+
+/* Estilo del titulo */
+.faq-title {
+    @apply font-semibold text-center text-3xl text-black mb-6;
+}
+
+/* Preguntas y respuestas */
+.faq-item {
+    @apply border-b-2 border-red-700 py-4;
+}
+
+/* Estilo para el texto de la pregunta */
+.faq-question {
+    @apply text-lg font-bold text-gray-800 flex justify-between items-center;
+}
+
+/* Estilo para el texto de la respuesta */
+.faq-answer {
+    @apply mt-2 mb-2 font-semibold text-justify text-gray-600;
+}
+
+/* Estilo para el botón de toggle */
+.faq-toggle-button {
+    @apply bg-red-800 text-xl font-extrabold text-white py-2 px-4 mt-2 cursor-pointer;
+}
