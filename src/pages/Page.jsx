@@ -10,7 +10,7 @@ const Page = ({ children }) => {
   // Función para determinar el margen basado en la ruta actual
   const getMarginBottom = () => {
     if (location.pathname.includes("/que-ofrecemos/productos/consumibles")) {
-      return "2500px";
+      return "2600px";
     } else if (location.pathname.includes("/que-ofrecemos/productos/accesorios")) {
       return "2600px";
     } else if (location.pathname.includes("/acerca-de")) {

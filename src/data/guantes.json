@@ -30,7 +30,7 @@
     {
         "id": "5",
         "nombre": "Guantes",
-        "descripcion": "Guantes de Tela de la marca Everlast",
+        "descripcion": "Guantes de Tela (Edicion Marvel) de la marca Everlast",
         "imgUrl": "../../src/assets/gtela1.webp",
         "precio": "800 LPS."
     }

@@ -15,26 +15,6 @@ body {
   flex-grow: 1;
   padding: 20px;
 }
-
-.acerca-mv {
-  @apply flex flex-col items-center;
-}
-.acerca-mv h1 {
-  @apply font-bold text-[40px] mt-[5%] mb-2.5;
-}
-.acerca-mision {
-  @apply bg-white w-[70%] mb-5 border-[7px] border-solid border-[#999999];
-}
-.acerca-mision h2,
-p {
-  @apply flex justify-center;
-}
-.acerca-mision h2 {
-  @apply font-bold text-[35px];
-}
-.acerca-mision p {
-  @apply mt-[0%] mb-[5%] mx-[5%];
-}
 .separador {
   @apply border-[5px] border-solid border-[#C40000];
 }
@@ -63,25 +43,8 @@ p {
 }
 
 @media (min-width: 340px) and (max-width: 816px) {
-  .acerca-mv h1 {
-    @apply text-3xl;
-  }
-  .acerca-mision p {
-    @apply text-[15px];
-  }
-  .acerca-mision h2 {
-    @apply text-[25px];
-  }
+
   .contenedor-entrenadores h1 {
-    @apply text-3xl;
-  }
-  .entrenadores h2 {
-    @apply text-[15px];
-  }
-  .entrenadores {
-    @apply w-3/5;
-  }
-  .entrenadores p {
-    @apply text-[15px];
-  }
+    font-size: 26px
+}
 }

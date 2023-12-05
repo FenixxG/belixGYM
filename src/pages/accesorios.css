@@ -7,6 +7,9 @@
     margin-bottom: 80px;
     top: 50%;
     position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     flex-grow: 1;
     padding: 20px;
 }
