@@ -42,5 +42,9 @@
 }
 
 .precio-consumible p {
-  @apply flex mt-1;
+  @apply flex mt-1; 
+}
+
+.precio-consumible p {
+  @apply flex justify-evenly;
 }
