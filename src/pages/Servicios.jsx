@@ -1,11 +1,15 @@
 import Page from "./Page";
 
 export const Servicios = () => {
-    return (
-      <Page>
-        <section>
-          <h2 className="m-4 p-4 bg-blue-400 text-red-400">Pagina Servicios</h2>
-        </section>
-      </Page>
-    )
+  return (
+    <Page>
+      <section className="servicios">
+        <div className="titulos">
+          <h1>Servicios</h1>
+          <h2>Contamos con una variedad de servicios, busca el que mas te guste</h2>
+        </div>
+
+      </section>
+    </Page>
+  )
 }

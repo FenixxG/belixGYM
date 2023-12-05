@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+section {
+    @apply bg-[#E5E5E5] font-['Poppins'];
+}
+
+.servicios {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 8%;
+    margin-bottom: 80px;
+    top: 50%;
+    position: static;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    padding: 20px;
+}

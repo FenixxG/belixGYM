@@ -1,8 +1,8 @@
 import Page from "./Page";
 import "./inicio.css";
 
-import imagenHero from '../assets/imagenHero.jpg';
-import imagenAcerca from '../assets/acerca.webp'
+import imagenHero from '../assets/imagenHeroPanel.jpg';
+import imagenAcerca from '../assets/acerca.jpg'
 
 export const Inicio = () => {
     return (
@@ -15,8 +15,9 @@ export const Inicio = () => {
                 <h2>Acerca de</h2>
                 <div className="acerca-info">
                     <img src={imagenAcerca} alt="Imagen Acerca de" />
-                    <p>Belix Total Fitness es un gimnasio que ha sido un pilar en la ciudad de Siguatepeque desde su establecimiento en 2005. Reconocido por su compromiso con la salud y el bienestar de la comunidad, se ha convertido en un punto de referencia para aquellos que buscan mejorar su estado físico y estilo de vida.
-                    Belix Total Fitness se destaca por su enfoque integral. Ofrece clases de entrenamiento funcional, pesas, cardio, así como asesoramiento personalizado de entrenadores capacitados.
+                    <p>
+                        Belix Total Fitness es un gimnasio que ha sido un pilar en la ciudad de Siguatepeque desde su establecimiento en 2005. Reconocido por su compromiso con la salud y el bienestar de la comunidad, se ha convertido en un punto de referencia para aquellos que buscan mejorar su estado físico y estilo de vida.
+                        Belix Total Fitness se destaca por su enfoque integral. Ofrece clases de entrenamiento funcional, pesas, cardio, así como asesoramiento personalizado de entrenadores capacitados. <br /> <a href="#">Ver mas ...</a>
                     </p>
                 </div>
             </section>
