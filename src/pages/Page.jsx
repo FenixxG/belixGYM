@@ -8,22 +8,20 @@ const Page = ({ children }) => {
   const location = useLocation();
 
   // Función para determinar el margen basado en la ruta actual
-  const getMarginBottom = () => {
-    if (location.pathname.includes("/que-ofrecemos/productos/consumibles")) {
-      return "2600px";
-    } else if (location.pathname.includes("/que-ofrecemos/productos/accesorios")) {
-      return "2600px";
-    } else if (location.pathname.includes("/acerca-de")) {
-      return "600px";
-    } else if (location.pathname.includes("/")) {
-      return "1300px";
-    } else if (location.pathname.includes("/contacto")) {
-      return "1300px";
-    }
-    else {
-      return "0px"; // Valor predeterminado
-    }
-  };
+ // Función para determinar el margen basado en la ruta actual y resolución de pantalla
+ const getMarginBottom = () => {
+  if (location.pathname.includes("/que-ofrecemos/productos/consumibles")) {
+    return window.innerWidth < 768 ? "6200px" : "2500px";
+  } else if (location.pathname.includes("/que-ofrecemos/productos/accesorios")) {
+    return window.innerWidth < 768 ? "6200px" : "2500px";
+  } else if (location.pathname.includes("/acerca-de")) {
+    return window.innerWidth < 768 ? "1700px" : "800px";
+  } else if (location.pathname.includes("/")) {
+    return window.innerWidth < 768 ? "2100px" : "1400px";
+  } else {
+    return "0px"; // Valor predeterminado
+  }
+};
 
   return (
     <>
