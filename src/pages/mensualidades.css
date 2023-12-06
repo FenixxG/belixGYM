@@ -12,6 +12,7 @@
 .center-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Ajuste para 3 columnas */
+  flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
 }

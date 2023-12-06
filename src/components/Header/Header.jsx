@@ -50,6 +50,9 @@ const Header = () => {
                 <h1>Belix Total Fitness</h1>
             </div>
             <nav>
+                <input type="checkbox" id="menu-toggle" />
+                <label htmlFor="menu-toggle" className="menu-icon">☰</label>
+
                 <ul className="navLinks">
                     {menus.map((menu) => (
                         <li

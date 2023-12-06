@@ -1,11 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-
-/* Estilos para el header */
 header {
     @apply flex justify-between items-center py-5 px-[100px] bg-black border-b-[5px] border-b-[#C40000] font-['Poppins'] relative;
 }
 
-/* Estilos para el logo */
 .logo {
     @apply flex items-center;
 }
@@ -18,7 +14,6 @@ header {
     @apply m-0 text-white ml-3 text-2xl font-semibold;
 }
 
-/* Estilos para el menú */
 header nav ul {
     @apply list-none flex;
 }
@@ -27,7 +22,6 @@ header nav ul {
     @apply block py-2 px-4 no-underline text-white font-medium;
 }
 
-/* Estilos para el submenú principal */
 .submenu {
     @apply hidden absolute bg-gray-800 z-10 p-3 rounded shadow-md;
 }
@@ -36,13 +30,53 @@ header nav ul {
     @apply block;
 }
 
-/* Estilos para el submenú de productos */
 .product-submenu {
-    @apply hidden absolute top-20  left-full bg-gray-800 z-10 p-3 shadow-md rounded-none; /* Agregado 'rounded-none' */
-    /* Ajusta el valor de top según sea necesario para mover el submenú hacia abajo */
+    @apply hidden absolute top-20 left-full bg-gray-800 z-10 p-3 shadow-md rounded-none;
 }
 
 .navLinks > li:hover .submenu .product-submenu {
     @apply block;
 }
 
+#menu-toggle {
+    @apply hidden;
+}
+
+@media (max-width: 854px) {
+    #menu-toggle {
+        @apply hidden;
+    }
+    
+    header {
+        @apply flex-col;
+    }
+
+    .navLinks {
+        @apply hidden flex-col;
+    }
+
+    .menu-icon {
+        @apply block cursor-pointer text-white text-2xl;
+        margin-bottom: 10px;
+    }
+
+    #menu-toggle:checked ~ .navLinks {
+        @apply flex;
+    }
+
+    .submenu {
+        @apply hidden absolute bg-gray-800 z-10 p-3 rounded shadow-md;
+    }
+
+    .navLinks > li:hover .submenu {
+        @apply block;
+    }
+
+    .product-submenu {
+        @apply hidden absolute top-20 left-full bg-gray-800 z-10 p-3 shadow-md rounded-none;
+    }
+
+    .navLinks > li:hover .submenu .product-submenu {
+        @apply block;
+    }
+}

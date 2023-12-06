@@ -6,6 +6,7 @@ import "./mensualidades.css";
 const Mensualidades = () => {
   return (
     <Page>
+      
       <section className="text-center">
         <br />
         <h2 className="blog-title">Mensualidades</h2>
@@ -13,6 +14,7 @@ const Mensualidades = () => {
         <div class="separador-consumible" />
       </section>
 
+      
       <section className="center-cards">
         {/* Plan Diario */}
         <div className="border p-4 transition-transform transform hover:scale-105">
@@ -75,6 +77,7 @@ const Mensualidades = () => {
         </div>
         <br />
       </section>
+      
     </Page>
   );
 };
