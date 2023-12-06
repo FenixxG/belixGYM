@@ -42,9 +42,11 @@ body {
   @apply flex justify-center font-bold mt-1;
 }
 
-@media (min-width: 340px) and (max-width: 816px) {
-
+@media  (max-width: 854px) {
+  .contenedor-acerca{
+    overflow-x: hidden;
+  }
   .contenedor-entrenadores h1 {
-    font-size: 26px
+    font-size: 24px
 }
 }

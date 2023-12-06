@@ -60,4 +60,8 @@
     .titulos h2 {
         @apply text-[15px];
     }
+    .tipo-accesorio h2 {
+        font-size: 25px;
+
+}
 }

@@ -38,11 +38,11 @@
   @apply flex flex-col items-center;
 }
 
-@media (min-width: 340px) and (max-width: 740px) {
+@media (max-width: 854px) {
   .card-body h5 {
-    @apply text-lg;
+    font-size: 16px;
   }
   .card-body p {
-    @apply text-[15px];
+    @apply text-[14px];
   }
 }

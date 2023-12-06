@@ -62,4 +62,9 @@
         .titulos h2 {
                 @apply text-[15px];
         }
+
+        .tipo-producto h2 {
+                font-size: 25px;
+        
+        }
 }

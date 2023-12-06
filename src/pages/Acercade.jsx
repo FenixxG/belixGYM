@@ -1,6 +1,4 @@
 import Page from "./Page";
-import entrenador2 from '../assets/entrenador2.jpg'
-import entrenador from '../assets/entrenador.jpg'
 import { CardGallery } from "../components/AcercaDe/Entrenadores/GalleryEntrenador";
 import dataEntrenador from '../data/entrenadores.json';
 import './acerca.css'
