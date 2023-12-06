@@ -50,6 +50,14 @@ const Page = ({ children }) => {
       } else {
         return "400px";
       }
+    } else if (location.pathname.includes("/")) {
+      if (window.innerWidth < 854) {
+        return "2050px";
+      } else if (window.innerWidth >= 854 && window.innerWidth < 1280) {
+        return "1550px";
+      } else {
+        return "1400px";
+      }
     }
   };
 
