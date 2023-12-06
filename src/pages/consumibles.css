@@ -29,7 +29,11 @@
 
 .tipo-producto h2,
 .separador-consumible {
+<<<<<<< HEAD
         @apply ml-[3.5%]
+=======
+        margin-left: 3.5%;
+>>>>>>> 107316a9a958961644d11ff2211560f9d7d7154a
 }
 
 .tipo-producto h2 {

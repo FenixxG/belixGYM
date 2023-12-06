@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "imagenUrl": "/src/assets/belixlogo.png",
+      "comentario": "¡Increíble experiencia! He alcanzado mis metas fitness gracias a este gimnasio.",
+      "autor": "Cliente Satisfecho 1"
+    },
+    {
+      "id": 2,
+      "imagenUrl": "/src/assets/belixlogo.png",
+      "comentario": "El personal es amable y las instalaciones son excelentes. ¡Altamente recomendado!",
+      "autor": "Cliente Satisfecho 2"
+    },
+    {
+      "id": 3,
+      "imagenUrl": "/src/assets/belixlogo.png",
+      "comentario": "Me encanta la variedad de clases que ofrecen. Nunca me aburro de entrenar aquí.",
+      "autor": "Cliente Satisfecho 3"
+    }
+]

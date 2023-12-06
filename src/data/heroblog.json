@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "imagenUrl": "/src/assets/consejosgym.jpg"
+  },
+  {
+    "id": "2",
+    "imagenUrl": "/src/assets/consejosrecetas.jpg"
+  },
+  {
+    "id": "3",
+    "imagenUrl": "/src/assets/beneficios.jpg"
+  },
+  {
+    "id": "4",
+    "imagenUrl": "/src/assets/beneficios-de-entrenar-al-aire-libre-infografia.jpg"
+  },
+  {
+    "id": "5",
+    "imagenUrl": "/src/assets/beneficios2.jpg"
+  },
+  {
+    "id": "6",
+    "imagenUrl": "/src/assets/nv.jpg"
+  }
+]

@@ -1,11 +1,11 @@
 import Page from "./Page";
 import { CardGallery } from "../components/AcercaDe/Entrenadores/GalleryEntrenador";
-import dataEntrenador from '../data/entrenadores.json';
-import './acerca.css'
+import dataEntrenador from "../data/entrenadores.json";
+import "./acerca.css";
 
 export const Acercade = () => {
   return (
-    <Page>
+    <Page title="Acerca Page">
       <div>
         <div class="contenedor-acerca  mx-auto p-4 static">
           <div class="contenedor-entrenadores">
@@ -18,5 +18,5 @@ export const Acercade = () => {
         </div>
       </div>
     </Page>
-  )
-}
+  );
+};
