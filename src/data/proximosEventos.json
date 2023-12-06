@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "imagenUrl": "/src/assets/YOGAAIRELIBRE.jpg",
+    "titulo": "Clase de Yoga al Aire Libre",
+    "fecha": "DD/MM/AAAA",
+    "hora": "HH:MM",
+    "descripcion": "¡Únete a nosotros para una relajante clase de yoga en el parque!"
+  },
+  {
+    "id": 2,
+    "imagenUrl": "/src/assets/pngtree-special-discount-png-image_7361259.png",
+    "titulo": "Descuento Especial de Verano",
+    "fecha": "DD/MM/AAAA",
+    "descripcion": "Aprovecha nuestro descuento especial en membresías durante el verano."
+  },
+  {
+    "id": 3,
+    "imagenUrl": "/src/assets/entrenar-en-grupo.jpeg",
+    "titulo": "Entrenamiento Funcional en Grupo",
+    "fecha": "DD/MM/AAAA",
+    "hora": "HH:MM",
+    "descripcion": "¡Participa en nuestro entrenamiento funcional grupal para mejorar tu condición física!"
+  }
+]

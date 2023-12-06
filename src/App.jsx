@@ -7,7 +7,7 @@ import { Consumibles } from './pages/Consumibles';
 import { Accesorios } from './pages/Accesorios';
 import { Programas } from './pages/Programas';
 
-import { Blog } from './pages/Blog';
+import {Blog} from './pages/Blog'
 import { Contacto } from './pages/Contacto';
 import { Acercade } from './pages/Acercade';
 import { FAQ } from './pages/FAQ';
