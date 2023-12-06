@@ -61,9 +61,9 @@ const Page = ({ children }) => {
       }
     } else if (location.pathname.includes("/que-ofrecemos/servicios")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "1450px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "500px";
       } else {
         return "500px";
       }
