@@ -1,4 +1,5 @@
 /* mensualidades.css */
+
 .text-center {
   text-align: center;
 }
@@ -11,8 +12,7 @@
 
 .center-cards {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Ajuste para 3 columnas */
-  flex-wrap: wrap;
+  grid-template-columns: repeat(1, 1fr); /* Adjusted for smaller screens */
   gap: 20px;
   justify-content: center;
 }
@@ -20,8 +20,8 @@
 .border {
   border-width: 1px;
   border-style: solid;
-  border-color: #e5e7eb; /* Puedes ajustar el color del borde según tus necesidades */
-  padding: 10px; /* Agregado para emular el padding del ejemplo anterior */
+  border-color: #e5e7eb;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -29,8 +29,8 @@
   transition: transform 0.3s ease-in-out;
   cursor: pointer;
   margin: 0 auto;
-  max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
-  width: 100%; /* Ajusta el ancho según tus necesidades */
+  max-width: 300px;
+  width: 100%;
 }
 
 .border:hover {
@@ -60,4 +60,18 @@
 
 .pl-4 {
   padding-left: 1rem;
+}
+
+/* Media Query for Tablets */
+@media (min-width: 640px) {
+  .center-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Media Query for Desktops */
+@media (min-width: 1024px) {
+  .center-cards {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }

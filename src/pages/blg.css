@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .hero-section {
   display: flex;
   justify-content: center;
@@ -6,31 +11,17 @@
   padding: 10px;
   height: 100vh;
 }
-.image-gallery {
-  display: flex;
-  overflow-x: auto;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-gallery .blog-post {
-  margin-top: 10px;
-}
-
-.image-gallery img {
-  width: 240px;
-  height: 240px;
-  border: 2px solid #333;
-}
 
 .titulo {
-  @apply flex flex-col items-center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .titulo h1 {
   color: aliceblue;
   font-size: 40px;
-  font-weight: bold
+  font-weight: bold;
 }
 
 .titulo h2 {
@@ -54,7 +45,6 @@
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
-
   cursor: pointer;
   max-width: 250px;
   margin: 0 auto;
@@ -79,6 +69,7 @@
 .event p {
   margin: 10px 0;
 }
+
 .centered-title {
   text-align: center;
 }
@@ -89,5 +80,10 @@
   font-weight: bold;
 }
 
-
-
+/* Responsive styles */
+@media (max-width: 768px) {
+  .comentarios-list,
+  .event-list {
+    grid-template-columns: 1fr;
+  }
+}

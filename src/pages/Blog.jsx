@@ -1,7 +1,6 @@
 import React from "react";
 import Page from "./Page";
 import "./blg.css";
-import blogData from "../data/heroblog.json";
 import comentariosData from "../data/comentarios.json";
 import eventosData from "../data/proximosEventos.json";
 
@@ -10,15 +9,6 @@ export const Blog = () => {
     <Page>
       <section className="centered-title">
         <h2 className="m-4 p-4 title-styling">Blog</h2>
-      </section>
-      <section className="hero-section">
-        <div className="image-gallery">
-          {blogData.map((post) => (
-            <div key={post.id} className="blog-post">
-              <img src={post.imagenUrl} />
-            </div>
-          ))}
-        </div>
       </section>
       <section className="comentarios-section">
         <br />
@@ -57,6 +47,7 @@ export const Blog = () => {
             </div>
           ))}
         </div>
+        <br />
       </section>{" "}
     </Page>
   );
