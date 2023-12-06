@@ -19,7 +19,7 @@ export const FAQ = () => {
       <div className="faq-content">
         <div className="faq-container">
           <div className="faq-title ">
-            <h2>FREQUENTLY ASKED QUESTIONS</h2>
+            <h2>PREGUNTAS FRECUENTES</h2>
           </div>
 
           <div className="faq-item">

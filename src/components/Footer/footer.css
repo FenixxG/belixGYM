@@ -9,9 +9,9 @@ footer {
     padding: 20px;
     display: flex;
     flex-direction: column;
-    position: relative;
-    width: 100%;
-    z-index: 999; /* Ensure the footer is above other content */
+    /* Cambiado a columna para alinear los elementos verticalmente */
+
+
 }
 
 
@@ -74,4 +74,37 @@ footer strong {
     font-size: 0.9rem;
     text-align: center;
     margin-left: 130px;
+    /* Ajusta el margen derecho según tus necesidades */
+}
+
+@media (max-width: 560px) {
+
+    .footer-content{
+        justify-content: flex-start;
+    }
+    .horario h3 {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+    footer strong{
+        margin-left: 80px;
+    }
+
+    .horario p {
+        font-size: 10px;
+    }
+
+    .logo-container img {
+        margin-left: -60px;
+    }
+
+    .sociales h3 {
+        font-size: 15px;
+        font-weight: bolder;
+        margin-left: 20px;
+    }
+
+    .social-icons{
+        margin-left: 40px;
+    }
 }
