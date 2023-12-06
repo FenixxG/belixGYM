@@ -47,7 +47,7 @@ const Page = ({ children }) => {
       if (windowWidth < 854) {
         return "2050px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "100px";
       } else {
         return "0px";
       }

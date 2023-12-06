@@ -84,12 +84,16 @@
         margin-left: 60px;
     }
 
-    .form div input {
+    .form input {
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        margin-bottom: 5pxpx;
-        margin-right: 0px;
+        margin-bottom: 5px 0px;
+        margin-left: 0px;
+    }
+
+    .form input[type="text"] {
+        @apply ml-0;
     }
 
     .input-mensaje textarea{
@@ -129,12 +133,16 @@
     .form{
         margin-left: 18%;
     }
-    .form div input {
+    .form input {
         display: flex;
         flex-direction: column;
         margin-top: 10px;
-        margin-bottom: 5pxpx;
-        margin-right: 0px;
+        margin-bottom: 5px 0px;
+        margin-left: 0px;
+    }
+
+    .form input[type="text"] {
+        @apply ml-0;
     }
 }
 
@@ -171,10 +179,15 @@
         align-items: flex-start;
         margin-left: 65px;
     }
-    .form div input {
+    .form input {
         display: flex;
         flex-direction: column;
-        margin-left: 30px;
-        box-sizing: border-box;
+        margin-top: 10px;
+        margin-bottom: 5px 0px;
+        margin-left: 0px;
+    }
+
+    .form input[type="text"] {
+        @apply ml-0;
     }
 }

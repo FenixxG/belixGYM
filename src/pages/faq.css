@@ -1,12 +1,11 @@
 /* Ajuste del espacio entre header y footer */
 .faq-content {
-    @apply flex-1 overflow-y-auto;
+    @apply mb-auto;
 }
-
 
 /* Contenedor principal del FAQ */
 .faq-container {
-    @apply mx-auto max-w-screen-xl py-20 px-80 bg-neutral-200 max-h-screen;
+    @apply mx-auto max-w-screen-md p-10 md:p-28 lg:p-24 xl:p-32 bg-neutral-200 max-h-screen;
 }
 
 /* Estilo del titulo */
@@ -31,5 +30,5 @@
 
 /* Estilo para el botón de toggle */
 .faq-toggle-button {
-    @apply bg-red-800 text-xl font-extrabold text-white py-2 px-4 mt-2 cursor-pointer;
+    @apply bg-red-800 text-xl font-extrabold text-white py-2 px-4 ml-20 mt-2 cursor-pointer;
 }
