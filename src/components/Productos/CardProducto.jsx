@@ -10,7 +10,7 @@ export const Card = (
 ) => {
     return (
         <div className="card">
-            <img src={image} alt="Imagen Producto" />
+            <img src={image} alt="Imagen de un Producto" />
             <div className="card-body">
                 <h5 className="card-title">{nombre}</h5>
                 <p className="card-text">{descripcion}</p>
