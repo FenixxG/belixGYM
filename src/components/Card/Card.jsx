@@ -1,4 +1,4 @@
-import './cardentrenador.css';
+import './card.css';
 export const Card = (
     {
         nombre,

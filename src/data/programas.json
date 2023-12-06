@@ -1,0 +1,26 @@
+[
+    {
+        "id": "1",
+        "nombre": "Ganar Masa Muscular",
+        "descripcion": "Nuestro programa de ganancia de masa muscular está diseñado para ayudarte a desarrollar fuerza y aumentar el tamaño muscular de manera efectiva. Con enfoque en entrenamiento de pesas y nutrición balanceada, te guiaremos para alcanzar tus metas de forma gradual y sostenible.",
+        "imagen": "../../src/assets/ganarMasa.png"
+    },
+    {
+        "id": "2",
+        "nombre": "Perder Peso",
+        "descripcion": "Nuestro programa de pérdida de peso está diseñado para ayudarte a alcanzar tus objetivos de manera saludable y sostenible. Combinando ejercicios cardiovasculares, entrenamiento personalizado y asesoramiento nutricional, te apoyaremos en tu viaje hacia un peso saludable y un estilo de vida activo.",
+        "imagen": "../../src/assets/perderPeso.webp"
+    },
+    {
+        "id": "3",
+        "nombre": "Entrenamiento aerobico",
+        "descripcion": "Diviértete mientras quemas calorías y mejoras tu resistencia con nuestros programas de entrenamiento aeróbico. Sesiones dinámicas que fortalecen tu sistema cardiovascular y te mantienen en movimiento.",
+        "imagen": "../../src/assets/aerobicos.webp"
+    },
+    {
+        "id": "4",
+        "nombre": "Clase de Zumba",
+        "descripcion": "Baila, suda y disfruta con nuestras clases de Zumba. Una combinación única de ritmos latinos y ejercicios aeróbicos que te ayudarán a mantener un estilo de vida activo mientras te diviertes.",
+        "imagen": "../../src/assets/zumba.jpg"
+    }
+]

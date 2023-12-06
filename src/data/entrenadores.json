@@ -3,30 +3,30 @@
         "id": "1",
         "nombre": "Gabriel Mazariegos",
         "descripcion": "Especializado en diversas disciplinas, destaca por su compromiso inquebrantable con el éxito de sus clientes. Su enfoque se basa en evaluaciones personalizadas meticulosas.",
-        "imgUrl": "../../src/assets/entrenador.webp"
+        "imagen": "../../src/assets/entrenador.webp"
     },
     {
         "id": "2",
         "nombre": "David Canales",
         "descripcion": "Cuenta con años de experiencia en diversas disciplinas de acondicionamiento físico, se distingue por su dedicación al éxito de sus clientes. Abordando aspiraciones y limitaciones específicas.",
-        "imgUrl": "../../src/assets/entrenador2.webp"
+        "imagen": "../../src/assets/entrenador2.webp"
     },
     {
         "id": "3",
         "nombre": "Thomas",
         "descripcion": "Este especialista destaca por su compromiso con el éxito de sus clientes. Su enfoque único se basa en evaluaciones personalizadas, explorando a fondo las habilidades.",
-        "imgUrl": "../../src/assets/entrenador6.webp"
+        "imagen": "../../src/assets/entrenador6.webp"
     },
     {
         "id": "4",
         "nombre": "Elias",
         "descripcion": "Con experiencia en diversas disciplinas,  resalta por su compromiso inquebrantable. Su metodología se basa en evaluaciones personalizadas, adentrándose en las aspiraciones y limitaciones de cada individuo.",
-        "imgUrl": "../../src/assets/entrenador4.webp"
+        "imagen": "../../src/assets/entrenador4.webp"
     },
     {
         "id": "5",
         "nombre": "Carlos",
         "descripcion": "Especializado en potenciar la salud cardiovascular, dirigiendo a los clientes hacia metas de condición física mediante sesiones aeróbicas dinámicas, perfectamente ajustadas a sus necesidades individuales.",
-        "imgUrl": "../../src/assets/entrenador5.webp"
+        "imagen": "../../src/assets/entrenador5.webp"
     }
 ]

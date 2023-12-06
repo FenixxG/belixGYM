@@ -1,5 +1,5 @@
 import { Card } from "./Card";
-import './galleryentrenador.css';
+import './gallerycard.css';
 
 export const CardGallery = ({ cards }) => {
 
@@ -9,7 +9,7 @@ export const CardGallery = ({ cards }) => {
                 key={card.id}
                 nombre={card.nombre}
                 descripcion={card.descripcion}
-                image={card.imagen}
+                imagen={card.imagen}
             />
         );
     });

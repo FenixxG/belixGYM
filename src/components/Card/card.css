@@ -1,0 +1,37 @@
+.card {
+    @apply bg-white border-[5px] border-[#999999] h-[400px] mr-4 mb-4 w-[300px] flex flex-col items-center justify-center font-['Poppins'] overflow-hidden;
+}
+
+.card-body p {
+    @apply flex text-center text-sm;
+}
+
+.card img {
+    @apply w-4/5 h-[200px] mr-[1%] mt-2.5;
+}
+
+.card-title {
+    @apply flex font-bold justify-center text-xl mb-[5px] text-center;
+}
+
+.card .card-body {
+    @apply p-4;
+}
+
+.card .card-body h3 {
+    @apply text-lg font-semibold;
+}
+
+.card-body {
+    @apply flex flex-col items-center;
+}
+
+@media (max-width: 854px) {
+    .card-body h5 {
+        font-size: 16px;
+    }
+
+    .card-body p {
+        @apply text-[14px];
+    }
+}

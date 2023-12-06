@@ -1,38 +1,37 @@
 [
-    {
-        "id": "1",
-        "nombre": "CRN-5",
-        "descripcion": "Creatina de la marca Crazy Nutrition",
-        "imgUrl": "../../src/assets/crn5.webp",
-        "precio": "3000 LPS."
-    },
-    {
-        "id": "2",
-        "nombre": "MICRONIZED CREATINE",
-        "descripcion": "Creatina de la marca Optimum Nutrition",
-        "imgUrl": "../../src/assets/optimum.webp",
-        "precio": "2500 LPS."
-    },
-    {
-        "id": "3",
-        "nombre": "CREATINE 1300",
-        "descripcion": "Creatina de la marca T-Rex",
-        "imgUrl": "../../src/assets/1300.webp",
-        "precio": "2000 LPS."
-    },
-    {
-        "id": "4",
-        "nombre": "MONOHYDRATE CREATINE",
-        "descripcion": "Creatina de la marca Profuel",
-        "imgUrl": "../../src/assets/profuel.webp",
-        "precio": "2000 LPS."
-    },
-    {
-        "id": "5",
-        "nombre": "MONOHYDRATE CREATINE",
-        "descripcion": "Creatina de la marca BioTech",
-        "imgUrl": "../../src/assets/biotech.webp",
-        "precio": "2000 LPS."
-    }
-    
+  {
+    "id": "1",
+    "nombre": "CRN-5",
+    "descripcion": "Creatina de la marca Crazy Nutrition",
+    "imgUrl": "../../src/assets/crn5.webp",
+    "precio": "3000 LPS."
+  },
+  {
+    "id": "2",
+    "nombre": "MICRONIZED CREATINE",
+    "descripcion": "Creatina de la marca Optimum Nutrition",
+    "imgUrl": "../../src/assets/optimum.webp",
+    "precio": "2500 LPS."
+  },
+  {
+    "id": "3",
+    "nombre": "CREATINE 1300",
+    "descripcion": "Creatina de la marca T-Rex",
+    "imgUrl": "../../src/assets/1300.webp",
+    "precio": "2000 LPS."
+  },
+  {
+    "id": "4",
+    "nombre": "MONOHYDRATE CREATINE",
+    "descripcion": "Creatina de la marca Profuel",
+    "imgUrl": "../../src/assets/profuel.webp",
+    "precio": "2000 LPS."
+  },
+  {
+    "id": "5",
+    "nombre": "MONOHYDRATE CREATINE",
+    "descripcion": "Creatina de la marca BioTech",
+    "imgUrl": "../../src/assets/biotech.webp",
+    "precio": "2000 LPS."
+  }
 ]

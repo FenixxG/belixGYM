@@ -1,5 +1,6 @@
 import { Card } from "./CardProducto";
 import "./galleryproducto.css";
+
 export const CardGallery = ({ cards }) => {
   const onClickHandler = (nombre) => {
     alert(nombre);

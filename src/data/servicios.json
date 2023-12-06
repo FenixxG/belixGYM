@@ -2,25 +2,25 @@
     {
         "id": "1",
         "nombre": "Entrenamiento de pesas",
-        "descripcion": "Especializado en diversas disciplinas, destaca por su compromiso inquebrantable con el éxito de sus clientes. Su enfoque se basa en evaluaciones personalizadas meticulosas.",
-        "imagen": "../../src/assets/entrenador.webp"
+        "descripcion": "Desarrolla fuerza y tonifica tu cuerpo con nuestros programas de entrenamiento de pesas. Desde rutinas generales hasta planes personalizados, fortalece tus músculos y alcanza tus metas de forma efectiva.",
+        "imagen": "../../src/assets/pesas.jpg"
     },
     {
         "id": "2",
         "nombre": "Entrenamiento cardio vascular",
-        "descripcion": "Cuenta con años de experiencia en diversas disciplinas de acondicionamiento físico, se distingue por su dedicación al éxito de sus clientes. Abordando aspiraciones y limitaciones específicas.",
-        "imgUrl": "../../src/assets/entrenador2.webp"
+        "descripcion": "Mejora tu resistencia y salud cardiovascular con nuestros entrenamientos especializados. Ya sea correr, andar en bicicleta o usar máquinas, encuentra el ejercicio que impulse tu corazón y aumente tu energía.",
+        "imagen": "../../src/assets/cardio.jpg"
     },
     {
         "id": "3",
         "nombre": "Entrenamiento aerobico",
-        "descripcion": "Este especialista destaca por su compromiso con el éxito de sus clientes. Su enfoque único se basa en evaluaciones personalizadas, explorando a fondo las habilidades.",
-        "imgUrl": "../../src/assets/entrenador6.webp"
+        "descripcion": "Diviértete mientras quemas calorías y mejoras tu resistencia con nuestros programas de entrenamiento aeróbico. Sesiones dinámicas que fortalecen tu sistema cardiovascular y te mantienen en movimiento.",
+        "imagen": "../../src/assets/aerobicos.webp"
     },
     {
         "id": "4",
         "nombre": "Clase de Zumba",
-        "descripcion": "Con experiencia en diversas disciplinas,  resalta por su compromiso inquebrantable. Su metodología se basa en evaluaciones personalizadas, adentrándose en las aspiraciones y limitaciones de cada individuo.",
-        "imgUrl": "../../src/assets/entrenador4.webp"
+        "descripcion": "Baila, suda y disfruta con nuestras clases de Zumba. Una combinación única de ritmos latinos y ejercicios aeróbicos que te ayudarán a mantener un estilo de vida activo mientras te diviertes.",
+        "imagen": "../../src/assets/zumba.jpg"
     }
 ]

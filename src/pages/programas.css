@@ -4,7 +4,7 @@ section {
     @apply bg-[#E5E5E5] font-['Poppins'];
 }
 
-.servicios {
+.programas {
     @apply w-[80%] mx-[8%] mb-20 top-1/2 static flex-1 p-5;
 }
 
