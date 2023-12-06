@@ -42,6 +42,14 @@ const Page = ({ children }) => {
       } else {
         return "400px";
       }
+    } else if (location.pathname.includes("/contacto")) {
+      if (window.innerWidth < 854) {
+        return "250px";
+      } else if (window.innerWidth >= 854 && window.innerWidth < 1280) {
+        return "250px";
+      } else {
+        return "400px";
+      }
     }
   };
 

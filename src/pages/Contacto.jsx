@@ -20,6 +20,7 @@ export const Contacto = () => {
     return (
         <Page title="Contact">
             <div class="container">
+                <div class="container-info-form">
                 <div class="contact-info">
                     <h1>Contactanos</h1>
                     <p>Contáctenos sobre cualquier cosa relacionada con nuestro gimnasio o servicios. </p>
@@ -49,7 +50,7 @@ export const Contacto = () => {
                         <input type="text" name="email" id="email" value={email} onChange={(e) => { setEmail(e.target.value) }} />
                     </div>
 
-                    <div>
+                    <div class="input-mensaje">
                         <label htmlFor="">Mensaje:</label><br />
                         <textarea value={comment} id="comment" name="comment" onChange={(e) => { setComment(e.target.value) }}></textarea>
                     </div>
@@ -58,6 +59,7 @@ export const Contacto = () => {
                         <button type="submit" onClick={onClickHandler}>Enviar</button>
                     </div>
                 </form>
+                </div>
             </div>
         </Page>
     );

@@ -2,8 +2,14 @@
     @apply flex w-full justify-between p-56 bg-neutral-200;
 }
 
+.container-info-form{
+    display: flex;
+    flex-direction: row;
+}
+
 .contact-info {
-    @apply max-w-sm mx-auto text-left ml-28; /* Añade margen a la izquierda */
+    @apply max-w-sm mx-auto text-left ml-28;
+    /* Añade margen a la izquierda */
 }
 
 .contact-info h1 {
@@ -28,7 +34,8 @@
 }
 
 .form button {
-    @apply bg-red-900 hover:bg-red-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none uppercase m-0; /* Utiliza la misma clase de margen para el botón */
+    @apply bg-red-900 hover:bg-red-300 text-white font-bold py-2 px-4 rounded-lg focus:outline-none uppercase m-0;
+    /* Utiliza la misma clase de margen para el botón */
 }
 
 .form input {
@@ -47,4 +54,127 @@
 .form input[type="number"]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
+}
+
+@media (max-width: 590px) {
+
+    .container {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        overflow: hidden;
+        margin-bottom: -100px;
+    }
+    .container-info-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info h1 {
+        font-size: 25px;
+        margin-left: -0px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+
+    .form div input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 5pxpx;
+        margin-right: 0px;
+    }
+
+    .input-mensaje textarea{
+        width: 350px;
+    }
+}
+
+@media (min-width: 591px) and (max-width: 1023px){
+
+    .container {
+
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        overflow: hidden;
+        margin-bottom: -100px;
+    }
+    .container-info-form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-info h1 {
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .contact-info {
+        margin-top: 20px;
+        margin-left: 25%;
+
+    }
+
+    .form{
+        margin-left: 18%;
+    }
+    .form div input {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 5pxpx;
+        margin-right: 0px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1279px){
+
+    .container {
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 1500px;
+        overflow: hidden;
+        margin-bottom: -100px;
+        align-items: center;
+    }
+    .container-info-form{
+        margin-top: 100px;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .contact-info h1 {
+        font-size: 25px;
+        display: flex;
+    }
+
+    .contact-info {
+        margin-top: 20px;
+    }
+
+    .form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 65px;
+    }
+    .form div input {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        box-sizing: border-box;
+    }
 }
