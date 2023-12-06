@@ -48,3 +48,7 @@
 .precio-consumible p {
   @apply flex justify-evenly;
 }
+
+@media  (max-width: 854px){
+
+}
