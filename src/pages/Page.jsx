@@ -29,7 +29,7 @@ const Page = ({ children }) => {
       }
     } else if (location.pathname.includes("/acerca-de")) {
       if (windowWidth < 854) {
-        return "1650px";
+        return "1750px";
       } else if (windowWidth >= 854 && windowWidth < 1246) {
         return "850px";
       } else {
@@ -45,17 +45,17 @@ const Page = ({ children }) => {
       }
     } else if (location.pathname.includes("/faq")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "0px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
         return "100px";
       } else {
-        return "0px";
+        return "100px";
       }
     } else if (location.pathname.includes("/blog")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "1050px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "1050px";
       } else {
         return "1000px";
       }
@@ -69,25 +69,25 @@ const Page = ({ children }) => {
       }
     } else if (location.pathname.includes("/que-ofrecemos/programas")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "1450px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "550px";
       } else {
         return "500px";
       }
     } else if (location.pathname.includes("/que-ofrecemos/mensualidades")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "180px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "0px";
       } else {
         return "0px";
       }
     } else if (location.pathname.includes("/")) {
       if (windowWidth < 854) {
-        return "2050px";
+        return "1050px";
       } else if (windowWidth >= 854 && windowWidth < 1280) {
-        return "1550px";
+        return "1250px";
       } else {
         return "858px";
       }
