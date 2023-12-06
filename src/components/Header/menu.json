@@ -7,7 +7,7 @@
     {
         "id": "que_ofrecemos",
         "nombre": "Que ofrecemos ▼",
-        "link": "/que-ofrecemos",
+        "link": "",
         "submenu": [
             {
                 "id": "servicios",
@@ -22,7 +22,7 @@
             {
                 "id": "productos",
                 "nombre": "Productos ->",
-                "link": "/que-ofrecemos/productos",
+                "link": "",
                 "submenu": [
                     {
                         "id": "consumibles",
