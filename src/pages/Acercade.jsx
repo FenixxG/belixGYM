@@ -10,7 +10,6 @@ export const Acercade = () => {
         <div class="contenedor-acerca  ">
           <div class="contenedor-entrenadores">
             <h1>Nuestros Entrenadores</h1>
-
             <div class="contenedor-carta">
               <CardGallery cards={dataEntrenador} />
             </div>
