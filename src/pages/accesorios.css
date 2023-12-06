@@ -1,5 +1,5 @@
 .contenedor-accesorios {
-    background-color: #E5E5E5;
+    /* background-color: #E5E5E5;
     font-family: 'Poppins', sans-serif;
     width: 80%;
     margin-left: 8%;
@@ -11,7 +11,8 @@
     flex-direction: row;
     flex-wrap: wrap;
     flex-grow: 1;
-    padding: 20px;
+    padding: 20px; */
+    @apply bg-[#E5E5E5] font-['Poppins'] w-[80%] mx-[8%] mb-20 top-1/2 static flex-1 p-5;
 }
 
 .titulos {
@@ -19,37 +20,32 @@
 }
 
 .titulos h1 {
-    @apply font-bold text-[40px] mb-2.5;
+    @apply font-bold text-[40px] mb-2.5 uppercase;
 }
 
 .titulos h2 {
-    @apply font-bold text-xl text-[#637179] text-justify mb-2.5;
+    @apply font-bold text-xl text-[#637179] text-justify mb-2.5 uppercase tracking-wide;
 }
 
 .tipo-accesorio h2,
 .separador-accesorio {
-    margin-left: 3.5%;
-
+    @apply ml-[3.5%];
 }
 
 .tipo-accesorio h2 {
-
-    margin-top: 40px;
-    font-weight: bolder;
-    font-size: 30px;
+    @apply mt-10 font-bold text-[30px] uppercase;
     background: -webkit-linear-gradient(#C40000, #000);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-
 }
 
 .separador-accesorio {
-    /*@apply border-[15px] border-solid border-[#C40000] mb-8;*/
+    @apply border border-[#C40000] mb-[30px] w-[91.5%];
 
-    border: 1px solid #C40000;
+    /* border: 1px solid #C40000;
     margin-top: 10px;
     margin-bottom: 30px;
-    width: 91.5%;
+    width: 91.5%; */
 }
 
 @media (max-width: 854px) {
@@ -62,6 +58,5 @@
     }
     .tipo-accesorio h2 {
         font-size: 25px;
-
-}
+    }
 }

@@ -6,7 +6,7 @@ export const Servicios = () => {
       <section className="servicios">
         <div className="titulos">
           <h1>Servicios</h1>
-          <h2>Contamos con una variedad de servicios, busca el que mas te guste</h2>
+          <h2>Contamos con una variedad de servicios</h2>
         </div>
 
       </section>

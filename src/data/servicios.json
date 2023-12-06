@@ -3,7 +3,7 @@
         "id": "1",
         "nombre": "Gabriel Mazariegos",
         "descripcion": "Especializado en diversas disciplinas, destaca por su compromiso inquebrantable con el éxito de sus clientes. Su enfoque se basa en evaluaciones personalizadas meticulosas.",
-        "imgUrl": "../../src/assets/entrenador.webp"
+        "imagen": "../../src/assets/entrenador.webp"
     },
     {
         "id": "2",

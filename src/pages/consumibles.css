@@ -29,29 +29,18 @@
 
 .tipo-producto h2,
 .separador-consumible {
-        /* margin-left: 3.5%; */
         @apply ml-[3.5%]
 }
 
 .tipo-producto h2 {
-        @apply mt-10 font-bold text-[30px];
-
-        /* margin-top: 40px;
-        font-weight: bolder;
-        font-size: 30px; */
+        @apply mt-10 font-bold text-[30px] uppercase;
         background: -webkit-linear-gradient(#C40000, #000);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-
 }
 
 .separador-consumible {
-        /* @apply border border-solid border-[#C40000] mb-[30px] w-[91.5%]; */
-
-        border: 1px solid #C40000;
-        margin-top: 10px;
-        margin-bottom: 30px;
-        width: 91.5%;
+        @apply border border-[#C40000] mb-[30px] w-[91.5%];
 }
 
 @media (max-width: 854px) {
@@ -64,7 +53,6 @@
         }
 
         .tipo-producto h2 {
-                font-size: 25px;
-        
+                @apply text-[25px];
         }
 }
