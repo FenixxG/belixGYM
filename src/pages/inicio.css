@@ -144,7 +144,7 @@ section {
         @apply font-['Poppins'];
     }
     .hero-panel {
-        @apply h-[300px] w-[95%];
+        @apply h-[300px] w-[90%];
     }
     .acerca, .ubicacion {
         @apply py-4 px-2;
@@ -159,7 +159,7 @@ section {
         @apply max-w-[90%];
     }
     .mapa {
-        @apply max-w-[200px];
+        @apply max-w-[450];
     }
 }
 

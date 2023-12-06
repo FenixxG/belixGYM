@@ -13,9 +13,9 @@
     },
     {
         "id": "3",
-        "nombre": "Entrenamiento aerobico",
-        "descripcion": "Diviértete mientras quemas calorías y mejoras tu resistencia con nuestros programas de entrenamiento aeróbico. Sesiones dinámicas que fortalecen tu sistema cardiovascular y te mantienen en movimiento.",
-        "imagen": "../../src/assets/aerobicos.webp"
+        "nombre": "Boxeo",
+        "descripcion": "Sumérgete en el emocionante mundo del boxeo con nuestro programa especializado. Aprende las técnicas fundamentales, mejora tu resistencia, agilidad y fuerza, mientras te sumerges en un entrenamiento desafiante pero gratificante. Nuestros instructores expertos te guiarán, ya seas principiante o tengas experiencia, para que disfrutes de una actividad que no solo te pone en forma, sino que también te enseña disciplina y autoconfianza.",
+        "imagen": "../../src/assets/boxeo.jpg"
     },
     {
         "id": "4",
