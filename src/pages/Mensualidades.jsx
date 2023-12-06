@@ -7,7 +7,7 @@ const Mensualidades = () => {
     <Page>
       <section className="text-center">
         <br />
-        <h2 className="blog-title">Mensualidades</h2>
+        <h2 className="blog-title uppercase text-[#000]">Mensualidades</h2>
         <br />
         <div class="separador-consumible" />
       </section>

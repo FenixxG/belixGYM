@@ -8,12 +8,12 @@ export const Blog = () => {
   return (
     <Page>
       <section className="centered-title">
-        <h2 className="m-4 p-4 title-styling">Blog</h2>
+        <h2 className="m-4 p-4 title-styling uppercase">Blog</h2>
       </section>
       <section className="comentarios-section">
         <br />
         <div className="titulo">
-          <h2>Comentarios de Nuestros Clientes</h2>
+          <h2 className="uppercase text-[#637179]">Comentarios de Nuestros Clientes</h2>
         </div>
         <div class="separador-consumible" />
         <div className="comentarios-list">

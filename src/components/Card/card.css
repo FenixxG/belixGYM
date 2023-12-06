@@ -1,5 +1,5 @@
 .card {
-    @apply bg-white border-[5px] border-[#999999] h-[400px] mr-4 mb-4 w-[300px] flex flex-col items-center justify-center font-['Poppins'] overflow-hidden;
+    @apply bg-white border-[5px] border-[#999999] h-[425px] mr-4 mb-4 w-[300px] flex flex-col items-center justify-center font-['Poppins'] overflow-hidden;
 }
 
 .card-body p {
