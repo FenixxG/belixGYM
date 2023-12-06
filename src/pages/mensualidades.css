@@ -1,0 +1,62 @@
+/* mensualidades.css */
+.text-center {
+  text-align: center;
+}
+
+.blog-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(196, 0, 0);
+}
+
+.center-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Ajuste para 3 columnas */
+  gap: 20px;
+  justify-content: center;
+}
+
+.border {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #e5e7eb; /* Puedes ajustar el color del borde según tus necesidades */
+  padding: 10px; /* Agregado para emular el padding del ejemplo anterior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+  cursor: pointer;
+  margin: 0 auto;
+  max-width: 300px; /* Ajusta el ancho máximo según tus necesidades */
+  width: 100%; /* Ajusta el ancho según tus necesidades */
+}
+
+.border:hover {
+  transform: scale(1.05);
+}
+
+.text-xl {
+  font-size: 1.25rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-green-500 {
+  color: #10b981;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.list-disc {
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+.pl-4 {
+  padding-left: 1rem;
+}

@@ -10,6 +10,8 @@ export default {
       'Poppins': ['sans-serif']
     }
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/container-queries'),
+  ],
 }
 

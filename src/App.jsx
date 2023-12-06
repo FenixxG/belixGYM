@@ -2,7 +2,7 @@ import './App.css'
 import { Inicio } from './pages/Inicio';
 
 import { Servicios } from './pages/Servicios';
-import { Mensualidades } from './pages/Mensualidades';
+import Mensualidades from './pages/Mensualidades';
 import { Consumibles } from './pages/Consumibles';
 import { Accesorios } from './pages/Accesorios';
 import { Programas } from './pages/Programas';
