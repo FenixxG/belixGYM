@@ -75,6 +75,14 @@ const Page = ({ children }) => {
       } else {
         return "500px";
       }
+    } else if (location.pathname.includes("/que-ofrecemos/mensualidades")) {
+      if (windowWidth < 854) {
+        return "2050px";
+      } else if (windowWidth >= 854 && windowWidth < 1280) {
+        return "1550px";
+      } else {
+        return "0px";
+      }
     } else if (location.pathname.includes("/")) {
       if (windowWidth < 854) {
         return "2050px";
