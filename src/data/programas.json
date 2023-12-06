@@ -2,19 +2,19 @@
     {
         "id": "1",
         "nombre": "Ganar Masa Muscular",
-        "descripcion": "Nuestro programa de ganancia de masa muscular está diseñado para ayudarte a desarrollar fuerza y aumentar el tamaño muscular de manera efectiva. Con enfoque en entrenamiento de pesas y nutrición balanceada, te guiaremos para alcanzar tus metas de forma gradual y sostenible.",
+        "descripcion": "Nuestro programa de ganancia de masa muscular está diseñado para ayudarte a desarrollar fuerza y aumentar el tamaño muscular de manera efectiva. Con enfoque en entrenamiento de pesas y nutrición balanceada.",
         "imagen": "../../src/assets/ganarMasa.png"
     },
     {
         "id": "2",
         "nombre": "Perder Peso",
-        "descripcion": "Nuestro programa de pérdida de peso está diseñado para ayudarte a alcanzar tus objetivos de manera saludable y sostenible. Combinando ejercicios cardiovasculares, entrenamiento personalizado y asesoramiento nutricional, te apoyaremos en tu viaje hacia un peso saludable y un estilo de vida activo.",
+        "descripcion": "Nuestro programa de pérdida de peso está diseñado para ayudarte a alcanzar tus objetivos de manera saludable y sostenible. Combinando ejercicios cardiovasculares, entrenamiento personalizado y asesoramiento nutricional.",
         "imagen": "../../src/assets/perderPeso.webp"
     },
     {
         "id": "3",
         "nombre": "Boxeo",
-        "descripcion": "Sumérgete en el emocionante mundo del boxeo con nuestro programa especializado. Aprende las técnicas fundamentales, mejora tu resistencia, agilidad y fuerza, mientras te sumerges en un entrenamiento desafiante pero gratificante. Nuestros instructores expertos te guiarán, ya seas principiante o tengas experiencia, para que disfrutes de una actividad que no solo te pone en forma, sino que también te enseña disciplina y autoconfianza.",
+        "descripcion": "Sumérgete en el emocionante mundo del boxeo con nuestro programa especializado. Aprende las técnicas fundamentales, mejora tu resistencia, agilidad y fuerza, mientras te sumerges en un entrenamiento desafiante pero gratificante. ",
         "imagen": "../../src/assets/boxeo.jpg"
     }
 ]
