@@ -1,6 +1,6 @@
 import './cardproducto.css';
 
-export const Card = (
+export const CardProducto = (
     {
         nombre,
         descripcion,

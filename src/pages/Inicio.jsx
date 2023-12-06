@@ -17,7 +17,7 @@ export const Inicio = () => {
                     <img src={imagenAcerca} alt="Imagen Acerca de" />
                     <p>
                         Belix Total Fitness es un gimnasio que ha sido un pilar en la ciudad de Siguatepeque desde su establecimiento en 2005. Reconocido por su compromiso con la salud y el bienestar de la comunidad, se ha convertido en un punto de referencia para aquellos que buscan mejorar su estado físico y estilo de vida.
-                        Belix Total Fitness se destaca por su enfoque integral. Ofrece clases de entrenamiento funcional, pesas, cardio, así como asesoramiento personalizado de entrenadores capacitados. <br /> <a href="#">Ver mas ...</a>
+                        Belix Total Fitness se destaca por su enfoque integral. Ofrece clases de entrenamiento funcional, pesas, cardio, así como asesoramiento personalizado de entrenadores capacitados.
                     </p>
                 </div>
             </section>

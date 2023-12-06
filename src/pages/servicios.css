@@ -17,5 +17,5 @@ section {
 }
 
 .titulos h2 {
-    @apply font-bold text-xl text-[#637179] text-justify mb-2.5 uppercase tracking-wide;
+    @apply font-bold text-xl text-[#637179] text-center mb-2.5 uppercase tracking-wide;
 }

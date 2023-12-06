@@ -35,7 +35,7 @@ section {
 }
 
 .acerca-info p {
-    @apply max-w-[20%] text-left font-medium;
+    @apply max-w-[20%] text-left font-medium ;
 }
 
 /* Estilo para ubicacion parrafo y mapa */
@@ -55,3 +55,112 @@ section {
     margin-bottom: 30px;
     width: 91.5%;
 }
+
+/* Laptop */
+@media (min-width: 1024px) {
+    section {
+        @apply font-['Poppins'];
+    }
+    .hero-panel {
+        @apply h-[600px] w-[80%];
+    }
+    .acerca, .ubicacion {
+        @apply w-[80%] py-10 px-0;
+    }
+    .acerca-info img {
+        @apply w-[350px] mr-12;
+    }
+    .acerca-info p {
+        @apply max-w-[35%];
+    }
+    .ubicacion-info p {
+        @apply max-w-[35%];
+    }
+    .mapa {
+        @apply max-w-[450px];
+    }
+}
+
+/* Tablet */
+@media (max-width: 1023px) {
+    section {
+        @apply font-['Poppins'];
+    }
+    .hero-panel {
+        @apply h-[500px] w-[90%];
+    }
+    .acerca, .ubicacion {
+        @apply w-[90%] py-8 px-4;
+    }
+    .acerca-info img {
+        @apply w-[250px] mr-8;
+    }
+    .acerca-info p {
+        @apply max-w-[45%];
+    }
+    .ubicacion-info {
+        @apply flex-col
+    }
+    .ubicacion-info p {
+        @apply max-w-[60%] text-center;
+    }
+    .mapa {
+        @apply max-w-[450px];
+    }
+}
+
+/* Celular */
+@media (max-width: 767px) {
+    section {
+        @apply font-['Poppins'];
+    }
+    .hero-panel {
+        @apply h-[400px] w-[90%];
+    }
+    .acerca, .ubicacion {
+        @apply py-6 px-2;
+    }
+    .acerca-info, .ubicacion-info {
+        @apply flex-col;
+    }
+    .acerca-info img {
+        @apply w-[200px] mr-0 mb-4;
+    }
+    .acerca-info p {
+        @apply max-w-[80%] text-center;
+    }
+    .ubicacion-info p {
+        @apply max-w-[80%] text-center;
+    }
+    .mapa {
+        @apply max-w-[450px];
+    }
+}
+
+
+/* Celulares Pequeños */
+@media (max-width: 479px) {
+    section {
+        @apply font-['Poppins'];
+    }
+    .hero-panel {
+        @apply h-[300px] w-[95%];
+    }
+    .acerca, .ubicacion {
+        @apply py-4 px-2;
+    }
+    .acerca-info img {
+        @apply w-[150px] mr-2;
+    }
+    .acerca-info p {
+        @apply max-w-[90%];
+    }
+    .ubicacion-info p {
+        @apply max-w-[90%];
+    }
+    .mapa {
+        @apply max-w-[200px];
+    }
+}
+
+

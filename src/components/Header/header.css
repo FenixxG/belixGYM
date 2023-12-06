@@ -2,15 +2,7 @@
 
 /* Estilos para el header */
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 100px;
-    background-color: #000;
-    border-bottom: 5px solid #C40000;
-    font-family: 'Poppins', sans-serif;
-    position: relative;
-
+    @apply flex justify-between items-center py-5 px-[100px] bg-black border-b-[5px] border-b-[#C40000] font-['Poppins'] relative;
 }
 
 /* Estilos para el logo */
@@ -23,7 +15,7 @@ header {
 }
 
 .logo h1 {
-    @apply m-0 text-white ml-3 text-2xl;
+    @apply m-0 text-white ml-3 text-2xl font-semibold;
 }
 
 /* Estilos para el menú */
@@ -53,3 +45,4 @@ header nav ul {
 .navLinks > li:hover .submenu .product-submenu {
     @apply block;
 }
+

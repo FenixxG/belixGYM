@@ -1,5 +1,5 @@
-.card {
-  /* @apply border-gray-300 shadow-sm m-4;*/
+/* .card {
+  
   background-color: #FFFFFF;
   border: 5px solid #999999;
   height: 400px;
@@ -45,4 +45,4 @@
   .card-body p {
     @apply text-[14px];
   }
-}
+} */

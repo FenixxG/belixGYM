@@ -56,7 +56,7 @@ const Page = ({ children }) => {
       } else if (window.innerWidth >= 854 && window.innerWidth < 1280) {
         return "1550px";
       } else {
-        return "1400px";
+        return "858px";
       }
     }
   };
