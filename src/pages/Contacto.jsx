@@ -36,6 +36,12 @@ export const Contacto = () => {
 
         // Si todos los campos son válidos, enviar el formulario
         alert("Gracias por tu mensaje, haremos todo lo posible para contactarnos lo antes posible.");
+
+        // Limpiar los inputs
+        setName('');
+        setTelephone('');
+        setEmail('');
+        setComment('');
     }
 
     return (
@@ -55,7 +61,7 @@ export const Contacto = () => {
                         </div>
                     </div>
 
-                    <form className="form" action="https://formsubmit.co/agartoxic19xel@gmail.com" method="POST" onSubmit={validarFormulario}>
+                    <form className="form" action="https://formsubmit.co/agartoxic19xel@gmail.com" method="GET" onSubmit={validarFormulario}>
                         <div>
                             <label htmlFor="nombre">Nombre Completo:</label>
                             <input type="text" name="name" id="nombre" value={name} onChange={(e) => { setName(e.target.value) }} />
